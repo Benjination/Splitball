@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.splitball"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="21"
+        android:targetSdkVersion="34" />
+
+    <application
+        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+        android:debuggable="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:testOnly="true"
+        android:theme="@style/Theme.SplitBall" >
+        <activity
+            android:name="com.example.splitball.MainMenu"
+            android:exported="true" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.example.splitball.Settings" />
+        <activity android:name="com.example.splitball.Languages" />
+        <activity android:name="com.example.splitball.LanguagesSP" />
+        <activity android:name="com.example.splitball.Leaderboard" />
+        <activity android:name="com.example.splitball.LeaderboardSP" />
+        <activity android:name="com.example.splitball.MainMenuSP" />
+        <activity android:name="com.example.splitball.Music" />
+        <activity android:name="com.example.splitball.MusicSP" />
+        <activity android:name="com.example.splitball.Mute" />
+        <activity android:name="com.example.splitball.MuteSP" />
+        <activity android:name="com.example.splitball.PauseScreen" />
+        <activity android:name="com.example.splitball.SettingsSP" />
+        <activity android:name="com.example.splitball.SFX" />
+        <activity android:name="com.example.splitball.SFXSP" />
+        <activity android:name="com.example.splitball.Social" />
+        <activity android:name="com.example.splitball.SocialSP" />
+
+        <provider
+            android:name="androidx.startup.InitializationProvider"
+            android:authorities="com.example.splitball.androidx-startup"
+            android:exported="false" >
+            <meta-data
+                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+                android:value="androidx.startup" />
+            <meta-data
+                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+                android:value="androidx.startup" />
+        </provider>
+    </application>
+
+</manifest>
