@@ -1,8 +1,27 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/benniccum/Desktop/SplitBall/SplitBall/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-night-v8/values-night-v8.xml",
+            "outputFile": "/Users/benniccum/Desktop/Splitball-1/SplitBall/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-night-v8/values-night-v8.xml",
             "map": [
+                {
+                    "source": "/Users/benniccum/Desktop/Splitball-1/SplitBall/app/src/main/res/values-night/themes.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "100",
+                        "endLines": "14",
+                        "endColumns": "12",
+                        "endOffsets": "818"
+                    },
+                    "to": {
+                        "startLines": "33",
+                        "startColumns": "4",
+                        "startOffsets": "3386",
+                        "endLines": "45",
+                        "endColumns": "12",
+                        "endOffsets": "4102"
+                    }
+                },
                 {
                     "source": "/Users/benniccum/.gradle/caches/transforms-3/19075c4677e37e538c54d7f745fc8af4/transformed/appcompat-1.4.1/res/values-night-v8/values-night-v8.xml",
                     "from": {
@@ -35,25 +54,6 @@
                         "startOffsets": "732,807,918,1007,1108,1215,1322,1421,1524,1612,1736,1838,1940,2056,2158,2272,2400,2516,2638,2774,2894,3028,3148,3260,4196,4313,4437,4567,4689,4827,4961,5077",
                         "endColumns": "74,110,88,100,106,106,98,102,87,123,101,101,115,101,113,127,115,121,135,119,133,119,111,125,116,123,129,121,137,133,115,119",
                         "endOffsets": "802,913,1002,1103,1210,1317,1416,1519,1607,1731,1833,1935,2051,2153,2267,2395,2511,2633,2769,2889,3023,3143,3255,3381,4308,4432,4562,4684,4822,4956,5072,5192"
-                    }
-                },
-                {
-                    "source": "/Users/benniccum/Desktop/SplitBall/SplitBall/app/src/main/res/values-night/themes.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "100",
-                        "endLines": "14",
-                        "endColumns": "12",
-                        "endOffsets": "818"
-                    },
-                    "to": {
-                        "startLines": "33",
-                        "startColumns": "4",
-                        "startOffsets": "3386",
-                        "endLines": "45",
-                        "endColumns": "12",
-                        "endOffsets": "4102"
                     }
                 }
             ]
