@@ -29,7 +29,7 @@ public class Languages extends AppCompatActivity {
             Intent intent = new Intent(Languages.this, MainMenuSP.class);
             startActivity(intent);
         });
-        Button backToMain = findViewById(R.id.backToMain);
+        Button backToMain = findViewById(R.id.Back_to_Main);
 
         backToMain.setOnClickListener(v -> {
             Intent intent = new Intent(Languages.this, MainMenu.class);
