@@ -2880,6 +2880,7 @@ id parent_matrix
 id password_toggle
 id path
 id pathRelative
+id pause
 id peekHeight
 id percent
 id pin

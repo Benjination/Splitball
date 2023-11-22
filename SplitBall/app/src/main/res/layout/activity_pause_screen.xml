@@ -4,6 +4,83 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/origami2"
+    android:orientation="horizontal"
     tools:context=".PauseScreen">
+
+    <ImageView
+        android:id="@+id/Splitball"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:contentDescription="@string/splitball_logo"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/splitball" />
+
+    <Button
+        android:id="@+id/settings"
+        android:layout_width="316dp"
+        android:layout_height="80dp"
+        android:layout_marginEnd="376dp"
+        android:layout_marginBottom="140dp"
+        android:text="@string/settings"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <Button
+        android:id="@+id/restart"
+        android:layout_width="314dp"
+        android:layout_height="79dp"
+        android:layout_marginEnd="380dp"
+        android:layout_marginBottom="388dp"
+        android:text="@string/restart"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <Button
+        android:id="@+id/exit"
+        android:layout_width="314dp"
+        android:layout_height="83dp"
+        android:layout_marginEnd="380dp"
+        android:layout_marginBottom="220dp"
+        android:text="@string/exit"
+        android:textSize="25sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <Button
+        android:id="@+id/resume"
+        android:layout_width="312dp"
+        android:layout_height="84dp"
+        android:layout_marginEnd="380dp"
+        android:layout_marginBottom="304dp"
+        android:text="@string/resume"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <Button
+        android:id="@+id/backToMain"
+        android:layout_width="314dp"
+        android:layout_height="96dp"
+        android:layout_marginEnd="380dp"
+        android:layout_marginBottom="44dp"
+        android:text="@string/back_to_main"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <androidx.constraintlayout.widget.Barrier
+        android:id="@+id/barrier2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:barrierDirection="left"
+        app:constraint_referenced_ids="Splitball" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -24,6 +24,7 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name="com.example.splitball.Classroom" />
         <activity android:name="com.example.splitball.Settings" />
         <activity android:name="com.example.splitball.Languages" />
         <activity android:name="com.example.splitball.LanguagesSP" />
