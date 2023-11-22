@@ -31,8 +31,11 @@
     <string name="silenciar">Silenciar</string>
     <string name="dejar_de_silenciar">Dejar de Silenciar</string>
     <string name="togglebutton">ToggleButton</string>
-    <string-array name="usernames">
-        <item>@Leaderboard.java/usernames[0]</item>
+    <string name="restart">Restart</string>
+    <string name="exit">Exit</string>
+    <string name="resume">Resume</string>
+    <string-array name="username">
+        <item>User1</item>
         <item>User2</item>
         <item>User3</item>
         <item>User4</item>

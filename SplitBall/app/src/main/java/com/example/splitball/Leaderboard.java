@@ -21,15 +21,17 @@ public class Leaderboard extends AppCompatActivity {
 
         // Read the CSV file from the raw folder
         InputStream inputStream = getResources().openRawResource(R.raw.leaderboardl);
-        List<String> usernames = new ArrayList<String>();
+        List<String> userValue = new ArrayList<String>();
         List<Integer> highScores = new ArrayList<Integer>();
         BufferedReader reader = new BufferedReader(new InputStreamReader(inputStream));
+        String[] usernames = res.getStringArray(R.array.usernames);
         try {
             String csvLine;
             int lineCount = 0;
             while ((csvLine = reader.readLine()) != null && lineCount < 10) {
                 String[] row = csvLine.split(",");
-                usernames.add(row[0]);
+                userValue.add(row[0]);
+                usernames[lineCount] = userValue.get(lineCount);
                 highScores.add(Integer.parseInt(row[1]));
                 lineCount++;
             }
@@ -41,6 +43,8 @@ public class Leaderboard extends AppCompatActivity {
             } catch (IOException e) {
                 e.printStackTrace();
             }
+
+
             Button backToMain = findViewById(R.id.backToMain);
             backToMain.setOnClickListener(v -> {
                 Intent intent = new Intent(Leaderboard.this, MainMenu.class);
