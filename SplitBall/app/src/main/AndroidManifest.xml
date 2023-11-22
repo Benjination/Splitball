@@ -15,6 +15,7 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".Classroom" />
         <activity android:name=".Settings" />
         <activity android:name=".Languages" />
         <activity android:name=".LanguagesSP" />

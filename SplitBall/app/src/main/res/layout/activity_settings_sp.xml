@@ -23,7 +23,7 @@
         android:layout_height="78dp"
         android:layout_marginBottom="184dp"
         android:text="@string/men_principal"
-        android:textSize="30sp"
+        android:textSize="24sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="@+id/muteUnmuteSP"
         app:layout_constraintStart_toStartOf="@+id/languagesSP" />
@@ -45,7 +45,7 @@
         android:layout_marginEnd="160dp"
         android:layout_marginBottom="108dp"
         android:text="@string/volumen_de_la_m_sica"
-        android:textSize="30sp"
+        android:textSize="23sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent" />
 

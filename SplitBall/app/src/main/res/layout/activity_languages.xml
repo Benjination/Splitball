@@ -25,6 +25,7 @@
         android:layout_height="72dp"
         android:layout_marginBottom="224dp"
         android:text="English"
+        android:textSize="30sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.317"
@@ -36,6 +37,7 @@
         android:layout_height="72dp"
         android:layout_marginStart="68dp"
         android:text="Spanish"
+        android:textSize="30sp"
         app:layout_constraintBottom_toBottomOf="@+id/English"
         app:layout_constraintStart_toEndOf="@+id/English"
         app:layout_constraintTop_toTopOf="@+id/English" />
@@ -46,6 +48,7 @@
         android:layout_height="72dp"
         android:layout_marginBottom="80dp"
         android:text="Back To Main"
+        android:textSize="23sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent" />

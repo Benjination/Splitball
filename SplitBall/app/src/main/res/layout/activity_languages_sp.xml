@@ -22,23 +22,27 @@
         android:id="@+id/Espanol"
         android:layout_width="226dp"
         android:layout_height="72dp"
-        android:layout_marginStart="64dp"
         android:text="@string/espanol"
-        app:layout_constraintBottom_toTopOf="@+id/MenuSP"
-        app:layout_constraintStart_toEndOf="@+id/Ingles"
-        app:layout_constraintTop_toBottomOf="@+id/Splitball"
-        app:layout_constraintVertical_bias="0.607" />
+        android:textSize="30sp"
+        app:layout_constraintBottom_toBottomOf="@+id/Ingles"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.685"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/Ingles"
+        app:layout_constraintVertical_bias="0.0" />
 
     <Button
         android:id="@+id/Ingles"
         android:layout_width="226dp"
         android:layout_height="72dp"
-        android:layout_marginBottom="212dp"
         android:text="@string/ingles"
+        android:textSize="30sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.312"
-        app:layout_constraintStart_toStartOf="parent" />
+        app:layout_constraintHorizontal_bias="0.308"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.692" />
 
     <Button
         android:id="@+id/MenuSP"
@@ -46,6 +50,7 @@
         android:layout_height="72dp"
         android:layout_marginBottom="76dp"
         android:text="@string/men_principal"
+        android:textSize="20sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent" />

@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/benniccum/Desktop/Splitball-1/SplitBall/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-mk/values-mk.xml",
+            "outputFile": "/Users/benniccum/Desktop/Splitball/SplitBall/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-mk/values-mk.xml",
             "map": [
                 {
                     "source": "/Users/benniccum/.gradle/caches/transforms-3/9339927e08badd09bc5459e4ba900d5f/transformed/core-1.7.0/res/values-mk/values-mk.xml",
