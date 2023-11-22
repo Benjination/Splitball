@@ -2718,6 +2718,7 @@ id end
 id endToStart
 id enterAlways
 id enterAlwaysCollapsed
+id exit
 id exitUntilCollapsed
 id expand_activities_button
 id expanded_menu
@@ -2880,6 +2881,7 @@ id parent_matrix
 id password_toggle
 id path
 id pathRelative
+id pause
 id peekHeight
 id percent
 id pin
@@ -2890,6 +2892,7 @@ id progress_horizontal
 id radio
 id ratio
 id rectangles
+id resume
 id reverseSawtooth
 id right
 id rightToLeft
