@@ -3159,7 +3159,9 @@ layout activity_languages_sp
 layout activity_leaderboard
 layout activity_leaderboard_sp
 layout activity_leaderboardf
+layout activity_leaderboardfsp
 layout activity_leaderboardg
+layout activity_leaderboardgsp
 layout activity_main_menu
 layout activity_main_menu_sp
 layout activity_music
