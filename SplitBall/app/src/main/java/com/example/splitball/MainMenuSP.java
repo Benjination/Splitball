@@ -34,7 +34,7 @@ public class MainMenuSP extends AppCompatActivity {
 
         Button socialsp = findViewById(R.id.socialSP);
         socialsp.setOnClickListener(v -> {
-            Intent intent = new Intent(MainMenuSP.this, SocialSP.class);
+            Intent intent = new Intent(MainMenuSP.this, Social.class);
             startActivity(intent);
         });
     }

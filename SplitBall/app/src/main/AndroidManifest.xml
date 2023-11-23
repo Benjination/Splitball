@@ -16,7 +16,7 @@
             </intent-filter>
         </activity>
         <activity android:name=".Classroom" />
-        <activity android:name=".Settings" />
+        <activity android:name=".GameOver" />
         <activity android:name=".Languages" />
         <activity android:name=".LanguagesSP" />
         <activity android:name=".Leaderboard" />
@@ -27,11 +27,11 @@
         <activity android:name=".Mute" />
         <activity android:name=".MuteSP" />
         <activity android:name=".PauseScreen" />
+        <activity android:name=".Settings" />
         <activity android:name=".SettingsSP" />
         <activity android:name=".SFX" />
         <activity android:name=".SFXSP" />
         <activity android:name=".Social" />
-        <activity android:name=".SocialSP" />
     </application>
 
 </manifest>

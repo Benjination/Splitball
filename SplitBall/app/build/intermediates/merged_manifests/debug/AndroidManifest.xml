@@ -25,7 +25,7 @@
             </intent-filter>
         </activity>
         <activity android:name="com.example.splitball.Classroom" />
-        <activity android:name="com.example.splitball.Settings" />
+        <activity android:name="com.example.splitball.GameOver" />
         <activity android:name="com.example.splitball.Languages" />
         <activity android:name="com.example.splitball.LanguagesSP" />
         <activity android:name="com.example.splitball.Leaderboard" />
@@ -36,11 +36,11 @@
         <activity android:name="com.example.splitball.Mute" />
         <activity android:name="com.example.splitball.MuteSP" />
         <activity android:name="com.example.splitball.PauseScreen" />
+        <activity android:name="com.example.splitball.Settings" />
         <activity android:name="com.example.splitball.SettingsSP" />
         <activity android:name="com.example.splitball.SFX" />
         <activity android:name="com.example.splitball.SFXSP" />
         <activity android:name="com.example.splitball.Social" />
-        <activity android:name="com.example.splitball.SocialSP" />
 
         <provider
             android:name="androidx.startup.InitializationProvider"

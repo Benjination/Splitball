@@ -104,7 +104,7 @@ activity#com.example.splitball.Classroom
 ADDED from C:\Users\14698\Desktop\Splitball\SplitBall\app\src\main\AndroidManifest.xml:18:9-47
 	android:name
 		ADDED from C:\Users\14698\Desktop\Splitball\SplitBall\app\src\main\AndroidManifest.xml:18:19-44
-activity#com.example.splitball.Settings
+activity#com.example.splitball.GameOver
 ADDED from C:\Users\14698\Desktop\Splitball\SplitBall\app\src\main\AndroidManifest.xml:19:9-46
 	android:name
 		ADDED from C:\Users\14698\Desktop\Splitball\SplitBall\app\src\main\AndroidManifest.xml:19:19-43
@@ -148,26 +148,26 @@ activity#com.example.splitball.PauseScreen
 ADDED from C:\Users\14698\Desktop\Splitball\SplitBall\app\src\main\AndroidManifest.xml:29:9-49
 	android:name
 		ADDED from C:\Users\14698\Desktop\Splitball\SplitBall\app\src\main\AndroidManifest.xml:29:19-46
+activity#com.example.splitball.Settings
+ADDED from C:\Users\14698\Desktop\Splitball\SplitBall\app\src\main\AndroidManifest.xml:30:9-46
+	android:name
+		ADDED from C:\Users\14698\Desktop\Splitball\SplitBall\app\src\main\AndroidManifest.xml:30:19-43
 activity#com.example.splitball.SettingsSP
-ADDED from C:\Users\14698\Desktop\Splitball\SplitBall\app\src\main\AndroidManifest.xml:30:9-48
+ADDED from C:\Users\14698\Desktop\Splitball\SplitBall\app\src\main\AndroidManifest.xml:31:9-48
 	android:name
-		ADDED from C:\Users\14698\Desktop\Splitball\SplitBall\app\src\main\AndroidManifest.xml:30:19-45
+		ADDED from C:\Users\14698\Desktop\Splitball\SplitBall\app\src\main\AndroidManifest.xml:31:19-45
 activity#com.example.splitball.SFX
-ADDED from C:\Users\14698\Desktop\Splitball\SplitBall\app\src\main\AndroidManifest.xml:31:9-41
+ADDED from C:\Users\14698\Desktop\Splitball\SplitBall\app\src\main\AndroidManifest.xml:32:9-41
 	android:name
-		ADDED from C:\Users\14698\Desktop\Splitball\SplitBall\app\src\main\AndroidManifest.xml:31:19-38
+		ADDED from C:\Users\14698\Desktop\Splitball\SplitBall\app\src\main\AndroidManifest.xml:32:19-38
 activity#com.example.splitball.SFXSP
-ADDED from C:\Users\14698\Desktop\Splitball\SplitBall\app\src\main\AndroidManifest.xml:32:9-43
+ADDED from C:\Users\14698\Desktop\Splitball\SplitBall\app\src\main\AndroidManifest.xml:33:9-43
 	android:name
-		ADDED from C:\Users\14698\Desktop\Splitball\SplitBall\app\src\main\AndroidManifest.xml:32:19-40
+		ADDED from C:\Users\14698\Desktop\Splitball\SplitBall\app\src\main\AndroidManifest.xml:33:19-40
 activity#com.example.splitball.Social
-ADDED from C:\Users\14698\Desktop\Splitball\SplitBall\app\src\main\AndroidManifest.xml:33:9-44
+ADDED from C:\Users\14698\Desktop\Splitball\SplitBall\app\src\main\AndroidManifest.xml:34:9-44
 	android:name
-		ADDED from C:\Users\14698\Desktop\Splitball\SplitBall\app\src\main\AndroidManifest.xml:33:19-41
-activity#com.example.splitball.SocialSP
-ADDED from C:\Users\14698\Desktop\Splitball\SplitBall\app\src\main\AndroidManifest.xml:34:9-46
-	android:name
-		ADDED from C:\Users\14698\Desktop\Splitball\SplitBall\app\src\main\AndroidManifest.xml:34:19-43
+		ADDED from C:\Users\14698\Desktop\Splitball\SplitBall\app\src\main\AndroidManifest.xml:34:19-41
 uses-sdk
 INJECTED from C:\Users\14698\Desktop\Splitball\SplitBall\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from C:\Users\14698\Desktop\Splitball\SplitBall\app\src\main\AndroidManifest.xml

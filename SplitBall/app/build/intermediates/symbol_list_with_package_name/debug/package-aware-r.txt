@@ -2618,6 +2618,7 @@ id autoCompleteToStart
 id backToMain
 id backToMainSP
 id barrier
+id barrier2
 id baseline
 id beginOnFirstDraw
 id beginning
@@ -2660,8 +2661,6 @@ id closest
 id collapseActionView
 id compress
 id confirm_button
-id connectToSocial
-id connectToSocialSP
 id constraint
 id container
 id content
@@ -2714,6 +2713,7 @@ id edit_query
 id edittext_dropdown_editable
 id edittext_dropdown_noneditable
 id elastic
+id email
 id end
 id endToStart
 id enterAlways
@@ -2722,6 +2722,7 @@ id exit
 id exitUntilCollapsed
 id expand_activities_button
 id expanded_menu
+id facebook
 id fade
 id fill
 id fill_horizontal
@@ -2742,6 +2743,7 @@ id fullscreen_header
 id ghost_view
 id ghost_view_holder
 id gone
+id googleplay
 id graph
 id graph_wrap
 id group_divider
@@ -2892,6 +2894,7 @@ id progress_horizontal
 id radio
 id ratio
 id rectangles
+id restart
 id resume
 id reverseSawtooth
 id right
@@ -2927,6 +2930,7 @@ id selection_type
 id settings
 id sfxVolume
 id sfxVolumeSP
+id share
 id sharedValueSet
 id sharedValueUnset
 id shortcut
@@ -2941,6 +2945,8 @@ id snackbar_action
 id snackbar_text
 id snap
 id snapMargins
+id social
+id socialSP
 id south
 id spacer
 id special_effects_controller_view_tag
@@ -3040,12 +3046,14 @@ id view_tree_saved_state_registry_owner
 id view_tree_view_model_store_owner
 id visible
 id visible_removing_fragment_view_tag
+id webView
 id west
 id withText
 id withinBounds
 id wrap
 id wrap_content
 id wrap_content_constrained
+id x
 id x_left
 id x_right
 id zero_corner_chip
@@ -3142,6 +3150,7 @@ layout abc_search_view
 layout abc_select_dialog_material
 layout abc_tooltip
 layout activity_classroom
+layout activity_gameover
 layout activity_languages
 layout activity_languages_sp
 layout activity_leaderboard
@@ -3158,7 +3167,6 @@ layout activity_settings_sp
 layout activity_sfx
 layout activity_sfxsp
 layout activity_social
-layout activity_social_sp
 layout custom_dialog
 layout design_bottom_navigation_item
 layout design_bottom_sheet_dialog
