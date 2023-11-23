@@ -25,17 +25,6 @@ public class PauseScreen extends AppCompatActivity {
             startActivity(intent);
         });
 
-        Button exit = findViewById(R.id.exit);
-        exit.setOnClickListener(v -> {
-            Intent intent = new Intent(PauseScreen.this, MainMenu.class);
-            startActivity(intent);
-        });
-
-        Button settings = findViewById(R.id.settings);
-        settings.setOnClickListener(v-> {
-            Intent intent = new Intent(PauseScreen.this, Settings.class);
-            startActivity(intent);
-        });
 
         Button restart = findViewById(R.id.restart);
         restart.setOnClickListener(v-> {

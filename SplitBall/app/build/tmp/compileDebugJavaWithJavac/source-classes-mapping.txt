@@ -7,8 +7,8 @@ com/example/splitball/Player.java
 com/example/splitball/SFXSP.java
  com.example.splitball.SFXSP
  com.example.splitball.SFXSP$1
-com/example/splitball/PauseScreen.java
- com.example.splitball.PauseScreen
+com/example/splitball/LeaderboardFSP.java
+ com.example.splitball.LeaderboardFSP
 com/example/splitball/SFX.java
  com.example.splitball.SFX
  com.example.splitball.SFX$1
@@ -18,8 +18,8 @@ com/example/splitball/Mute.java
  com.example.splitball.Mute
 com/example/splitball/GameOver.java
  com.example.splitball.GameOver
-com/example/splitball/Classroom.java
- com.example.splitball.Classroom
+com/example/splitball/LeaderboardSP.java
+ com.example.splitball.LeaderboardSP
 com/example/splitball/SettingsSP.java
  com.example.splitball.SettingsSP
 com/example/splitball/Settings.java
@@ -48,7 +48,7 @@ com/example/splitball/MainMenuSP.java
  com.example.splitball.MainMenuSP
 com/example/splitball/LeaderboardGSP.java
  com.example.splitball.LeaderboardGSP
-com/example/splitball/LeaderboardSP.java
- com.example.splitball.LeaderboardSP
-com/example/splitball/LeaderboardFSP.java
- com.example.splitball.LeaderboardFSP
+com/example/splitball/PauseScreen.java
+ com.example.splitball.PauseScreen
+com/example/splitball/Classroom.java
+ com.example.splitball.Classroom
