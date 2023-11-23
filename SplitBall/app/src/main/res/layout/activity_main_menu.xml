@@ -42,7 +42,7 @@
         app:layout_constraintStart_toStartOf="parent" />
 
     <Button
-        android:id="@+id/connectToSocial"
+        android:id="@+id/social"
         android:layout_width="300dp"
         android:layout_height="78dp"
         android:layout_marginBottom="4dp"

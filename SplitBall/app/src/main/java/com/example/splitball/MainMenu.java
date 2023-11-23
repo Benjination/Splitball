@@ -14,7 +14,6 @@ public class MainMenu extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main_menu);
 
-
         //MusicPlayer musicPlayer = new MusicPlayer();
 
         // Play music
@@ -30,30 +29,23 @@ public class MainMenu extends AppCompatActivity {
             Intent intent = new Intent(MainMenu.this, Settings.class);
             startActivity(intent);
         });
-        Button classroom = findViewById(R.id.classroom);
 
+        Button classroom = findViewById(R.id.classroom);
         classroom.setOnClickListener(v -> {
             Intent intent = new Intent(MainMenu.this, Classroom.class);
             startActivity(intent);
         });
-        Button leaderboard = findViewById(R.id.leaderboard);
 
+        Button leaderboard = findViewById(R.id.leaderboard);
         leaderboard.setOnClickListener(v -> {
             Intent intent = new Intent(MainMenu.this, Leaderboard.class);
             startActivity(intent);
         });
-        Button connectToSocial = findViewById(R.id.connectToSocial);
 
-        connectToSocial.setOnClickListener(v -> {
+        Button social = findViewById(R.id.social);
+        social.setOnClickListener(v -> {
             Intent intent = new Intent(MainMenu.this, Social.class);
             startActivity(intent);
         });
     }
-
-
-    //public void settings(View settings) {
-      //  Intent intent = new Intent(MainMenu.this, Settings.class);
-        //startActivity(intent);
-
-    //}
 }

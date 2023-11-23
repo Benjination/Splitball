@@ -7,7 +7,7 @@
     android:layout_height="match_parent"
     android:background="@drawable/origami2"
     android:orientation="horizontal"
-    tools:context=".PauseScreen">
+    tools:context=".Classroom">
 
     <ImageView
         android:id="@+id/Splitball"

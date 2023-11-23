@@ -36,7 +36,6 @@ public class Social extends AppCompatActivity {
         });
 
     }
-
     private void openSocialPage(String url) {
         Uri webpage = Uri.parse(url);
         Intent intent = new Intent(Intent.ACTION_VIEW, webpage);

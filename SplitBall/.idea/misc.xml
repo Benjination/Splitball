@@ -5,7 +5,10 @@
       <map>
         <entry key="..\:/Users/14698/Desktop/Splitball/SplitBall/app/src/main/res/layout/activity_classroom.xml" value="0.2" />
         <entry key="..\:/Users/14698/Desktop/Splitball/SplitBall/app/src/main/res/layout/activity_gameover.xml" value="0.2" />
+        <entry key="..\:/Users/14698/Desktop/Splitball/SplitBall/app/src/main/res/layout/activity_leaderboard.xml" value="0.1875" />
+        <entry key="..\:/Users/14698/Desktop/Splitball/SplitBall/app/src/main/res/layout/activity_main_menu.xml" value="0.1516025641025641" />
         <entry key="..\:/Users/14698/Desktop/Splitball/SplitBall/app/src/main/res/layout/activity_pause_screen.xml" value="0.2" />
+        <entry key="..\:/Users/14698/Desktop/Splitball/SplitBall/app/src/main/res/layout/activity_settings.xml" value="0.1519230769230769" />
         <entry key="..\:/Users/14698/Desktop/Splitball/SplitBall/app/src/main/res/layout/activity_social.xml" value="0.1875" />
         <entry key="..\:/Users/14698/Desktop/Splitball/SplitBall/app/src/main/res/layout/activity_social_sp.xml" value="0.1875" />
         <entry key="app/src/main/res/layout/activity_classroom.xml" value="0.29052734375" />
@@ -27,7 +30,7 @@
       </map>
     </option>
   </component>
-  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK">
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_15" project-jdk-name="11" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/build/classes" />
   </component>
   <component name="ProjectType">
