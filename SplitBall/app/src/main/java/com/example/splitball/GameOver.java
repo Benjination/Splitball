@@ -19,11 +19,6 @@ public class GameOver extends AppCompatActivity {
             startActivity(intent);
         });
 
-        Button exit = findViewById(R.id.exit);
-        exit.setOnClickListener(v -> {
-            Intent intent = new Intent(GameOver.this, MainMenu.class);
-            startActivity(intent);
-        });
 
         Button settings = findViewById(R.id.settings);
         settings.setOnClickListener(v-> {
