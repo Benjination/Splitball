@@ -17,8 +17,14 @@ public class Classroom extends AppCompatActivity {
         Button pause = findViewById(R.id.pause);
 
         pause.setOnClickListener(v ->{
-                Intent intent = new Intent(Classroom.this, PauseScreen.class);
-                startActivity(intent);
-            });
+            Intent intent = new Intent(Classroom.this, PauseScreen.class);
+            startActivity(intent);
+        });
+
+        //if (playerLosesGameConditionMet) {
+        //Intent intent = new Intent(Classroom.this, GameOver.class);
+        //startActivity(intent);
+        // Finish the current activity to prevent going back to the game
+        //finish();
     }
 }
