@@ -26,13 +26,13 @@
         android:layout_marginTop="56dp"
         android:text="@string/ajustes"
         android:textSize="35sp"
-        app:layout_constraintEnd_toEndOf="@+id/connectToSocialSP"
+        app:layout_constraintEnd_toEndOf="@+id/socialSP"
         app:layout_constraintStart_toEndOf="@+id/classroomSP"
-        app:layout_constraintStart_toStartOf="@+id/connectToSocialSP"
+        app:layout_constraintStart_toStartOf="@+id/socialSP"
         app:layout_constraintTop_toBottomOf="@+id/Splitball" />
 
     <Button
-        android:id="@+id/connectToSocialSP"
+        android:id="@+id/socialSP"
         android:layout_width="300dp"
         android:layout_height="78dp"
         android:layout_marginStart="4dp"
