@@ -37,7 +37,7 @@
     <string name="local">Local</string>
     <string name="friends">Friends</string>
     <string name="global">Global</string>
-    <string name="amigos">Resume</string>
+    <string name="amigos">Amigos</string>
     <integer-array name="high_scores">
         <item>100</item>
         <item>150</item>

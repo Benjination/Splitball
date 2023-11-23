@@ -17,6 +17,8 @@
         </activity>
         <activity android:name=".Classroom" />
         <activity android:name=".LeaderboardF" />
+        <activity android:name=".LeaderboardFSP" />
+        <activity android:name=".LeaderboardGSP" />
         <activity android:name=".LeaderboardG" />
         <activity android:name=".GameOver" />
         <activity android:name=".Languages" />

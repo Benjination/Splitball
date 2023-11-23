@@ -13,15 +13,15 @@ import java.io.InputStreamReader;
 import java.util.ArrayList;
 import java.util.List;
 
-public class LeaderboardSP extends AppCompatActivity {
+public class LeaderboardGSP extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_leaderboard_sp);
+        setContentView(R.layout.activity_leaderboardgsp);
 
         // Read the CSV file from the raw folder
-        InputStream inputStream = getResources().openRawResource(R.raw.leaderboardl);
+        InputStream inputStream = getResources().openRawResource(R.raw.leaderboardg);
         List<String> userValue = new ArrayList<>();
         List<Integer> highScores = new ArrayList<>();
         BufferedReader reader = new BufferedReader(new InputStreamReader(inputStream));
@@ -70,17 +70,17 @@ public class LeaderboardSP extends AppCompatActivity {
 
             Button backToMain = findViewById(R.id.backToMain);
             backToMain.setOnClickListener(v -> {
-                Intent intent = new Intent(LeaderboardSP.this, MainMenuSP.class);
+                Intent intent = new Intent(LeaderboardGSP.this, MainMenuSP.class);
+                startActivity(intent);
+            });
+            Button local = findViewById(R.id.local);
+            local.setOnClickListener(v -> {
+                Intent intent = new Intent(LeaderboardGSP.this, LeaderboardSP.class);
                 startActivity(intent);
             });
             Button friends = findViewById(R.id.friends);
             friends.setOnClickListener(v -> {
-                Intent intent = new Intent(LeaderboardSP.this, LeaderboardFSP.class);
-                startActivity(intent);
-            });
-            Button global = findViewById(R.id.global);
-            global.setOnClickListener(v -> {
-                Intent intent = new Intent(LeaderboardSP.this, LeaderboardGSP.class);
+                Intent intent = new Intent(LeaderboardGSP.this, LeaderboardFSP.class);
                 startActivity(intent);
             });
         }
