@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="NONE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="f22845b0-2206-4e88-8dce-a3be44e5b1c9" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/SplitBall/app/build/intermediates/dex/debug/mergeProjectDexDebug/10/classes.dex" beforeDir="false" afterPath="$PROJECT_DIR$/SplitBall/app/build/intermediates/dex/debug/mergeProjectDexDebug/10/classes.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SplitBall/app/build/intermediates/javac/debug/classes/com/example/splitball/Languages.class" beforeDir="false" afterPath="$PROJECT_DIR$/SplitBall/app/build/intermediates/javac/debug/classes/com/example/splitball/Languages.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SplitBall/app/build/intermediates/project_dex_archive/debug/out/com/example/splitball/Languages.dex" beforeDir="false" afterPath="$PROJECT_DIR$/SplitBall/app/build/intermediates/project_dex_archive/debug/out/com/example/splitball/Languages.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SplitBall/app/build/tmp/compileDebugJavaWithJavac/source-classes-mapping.txt" beforeDir="false" afterPath="$PROJECT_DIR$/SplitBall/app/build/tmp/compileDebugJavaWithJavac/source-classes-mapping.txt" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="2YVCjPlFy5LE4dlAedUV26XUFUC" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f22845b0-2206-4e88-8dce-a3be44e5b1c9" name="Default Changelist" comment="" />
+      <created>1700601494622</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1700601494622</updated>
+    </task>
+    <servers />
+  </component>
+</project>
