@@ -33,7 +33,7 @@
         android:layout_height="59dp"
         android:background="@color/black"
         android:gravity="center"
-        android:text="Username 1"
+        android:text="@array"
         android:textColor="#FF1111"
         android:textSize="30sp"
         tools:layout_editor_absoluteX="104dp"

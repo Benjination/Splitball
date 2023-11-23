@@ -2617,6 +2617,7 @@ int id autoCompleteToStart 0x7f09005e
 int id backToMain 0x7f09005f
 int id backToMainSP 0x7f090060
 int id barrier 0x7f090061
+int id barrier2 0x7f090206
 int id baseline 0x7f090062
 int id beginOnFirstDraw 0x7f090063
 int id beginning 0x7f090064
@@ -2717,6 +2718,7 @@ int id end 0x7f0900c2
 int id endToStart 0x7f0900c3
 int id enterAlways 0x7f0900c4
 int id enterAlwaysCollapsed 0x7f0900c5
+int id exit 0x7f090207
 int id exitUntilCollapsed 0x7f0900c6
 int id expand_activities_button 0x7f0900c7
 int id expanded_menu 0x7f0900c8
@@ -2890,6 +2892,8 @@ int id progress_horizontal 0x7f09016e
 int id radio 0x7f09016f
 int id ratio 0x7f090170
 int id rectangles 0x7f090171
+int id restart 0x7f090208
+int id resume 0x7f090209
 int id reverseSawtooth 0x7f090172
 int id right 0x7f090173
 int id rightToLeft 0x7f090174
@@ -3292,6 +3296,7 @@ int string deslice_para_musica 0x7f11002a
 int string deslice_para_sfx 0x7f11002b
 int string error_icon_content_description 0x7f11002c
 int string espanol 0x7f11002d
+int string exit 0x7f11009a
 int string exposed_dropdown_menu_content_description 0x7f11002e
 int string fab_transformation_scrim_behavior 0x7f11002f
 int string fab_transformation_sheet_behavior 0x7f110030
@@ -3388,6 +3393,8 @@ int string path_password_eye_mask_visible 0x7f11008a
 int string path_password_strike_through 0x7f11008b
 int string play_game 0x7f11008c
 int string previous 0x7f11008d
+int string restart 0x7f11009b
+int string resume 0x7f11009c
 int string search_menu_title 0x7f11008e
 int string second_fragment_label 0x7f11008f
 int string settings 0x7f110090

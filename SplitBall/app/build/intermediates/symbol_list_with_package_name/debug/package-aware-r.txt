@@ -2618,6 +2618,7 @@ id autoCompleteToStart
 id backToMain
 id backToMainSP
 id barrier
+id barrier2
 id baseline
 id beginOnFirstDraw
 id beginning
@@ -2892,6 +2893,7 @@ id progress_horizontal
 id radio
 id ratio
 id rectangles
+id restart
 id resume
 id reverseSawtooth
 id right
@@ -3295,6 +3297,7 @@ string deslice_para_musica
 string deslice_para_sfx
 string error_icon_content_description
 string espanol
+string exit
 string exposed_dropdown_menu_content_description
 string fab_transformation_scrim_behavior
 string fab_transformation_sheet_behavior
@@ -3391,6 +3394,8 @@ string path_password_eye_mask_visible
 string path_password_strike_through
 string play_game
 string previous
+string restart
+string resume
 string search_menu_title
 string second_fragment_label
 string settings

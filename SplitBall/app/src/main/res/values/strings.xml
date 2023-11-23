@@ -34,18 +34,6 @@
     <string name="restart">Restart</string>
     <string name="exit">Exit</string>
     <string name="resume">Resume</string>
-    <string-array name="username">
-        <item>User1</item>
-        <item>User2</item>
-        <item>User3</item>
-        <item>User4</item>
-        <item>User5</item>
-        <item>User6</item>
-        <item>User7</item>
-        <item>User8</item>
-        <item>User9</item>
-        <item>User10</item>
-    </string-array>
     <integer-array name="high_scores">
         <item>100</item>
         <item>150</item>

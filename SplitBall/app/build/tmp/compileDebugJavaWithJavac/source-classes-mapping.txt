@@ -19,8 +19,9 @@ com/example/splitball/SettingsSP.java
  com.example.splitball.SettingsSP
 com/example/splitball/Settings.java
  com.example.splitball.Settings
-com/example/splitball/Leaderboard.java
- com.example.splitball.Leaderboard
+com/example/splitball/SFX.java
+ com.example.splitball.SFX
+ com.example.splitball.SFX$1
 com/example/splitball/LanguagesSP.java
  com.example.splitball.LanguagesSP
 com/example/splitball/Social.java
@@ -32,15 +33,14 @@ com/example/splitball/Music.java
  com.example.splitball.Music$1
 com/example/splitball/SocialSP.java
  com.example.splitball.SocialSP
-com/example/splitball/MainMenu.java
- com.example.splitball.MainMenu
+com/example/splitball/MuteSP.java
+ com.example.splitball.MuteSP
 com/example/splitball/MusicSP.java
  com.example.splitball.MusicSP
  com.example.splitball.MusicSP$1
 com/example/splitball/Languages.java
  com.example.splitball.Languages
-com/example/splitball/SFX.java
- com.example.splitball.SFX
- com.example.splitball.SFX$1
-com/example/splitball/MuteSP.java
- com.example.splitball.MuteSP
+com/example/splitball/MainMenu.java
+ com.example.splitball.MainMenu
+com/example/splitball/Leaderboard.java
+ com.example.splitball.Leaderboard

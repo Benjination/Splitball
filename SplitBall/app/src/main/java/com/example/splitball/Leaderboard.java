@@ -11,6 +11,7 @@ import java.io.InputStream;
 import java.io.InputStreamReader;
 import java.util.ArrayList;
 import java.util.List;
+import java.util.ResourceBundle;
 
 public class Leaderboard extends AppCompatActivity {
 
@@ -24,14 +25,12 @@ public class Leaderboard extends AppCompatActivity {
         List<String> userValue = new ArrayList<String>();
         List<Integer> highScores = new ArrayList<Integer>();
         BufferedReader reader = new BufferedReader(new InputStreamReader(inputStream));
-        String[] usernames = res.getStringArray(R.array.usernames);
         try {
             String csvLine;
             int lineCount = 0;
             while ((csvLine = reader.readLine()) != null && lineCount < 10) {
                 String[] row = csvLine.split(",");
                 userValue.add(row[0]);
-                usernames[lineCount] = userValue.get(lineCount);
                 highScores.add(Integer.parseInt(row[1]));
                 lineCount++;
             }
