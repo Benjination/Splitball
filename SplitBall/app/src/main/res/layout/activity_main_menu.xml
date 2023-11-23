@@ -25,7 +25,7 @@
         android:layout_marginBottom="8dp"
         android:text="@string/settings"
         android:textSize="40sp"
-        app:layout_constraintBottom_toTopOf="@+id/connectToSocial"
+        app:layout_constraintBottom_toTopOf="@+id/social"
         app:layout_constraintEnd_toEndOf="parent" />
 
     <Button
@@ -37,7 +37,7 @@
         android:text="@string/leaderboard"
         android:textSize="30sp"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toStartOf="@+id/connectToSocial"
+        app:layout_constraintEnd_toStartOf="@+id/social"
         app:layout_constraintHorizontal_bias="0.979"
         app:layout_constraintStart_toStartOf="parent" />
 
