@@ -10379,7 +10379,7 @@
         <item name="android:statusBarColor" ns2:targetApi="l">?attr/colorPrimaryVariant</item>
         
     </style></file><file path="/Users/benniccum/Desktop/Splitball/SplitBall/app/src/main/res/values/arrays.xml" qualifiers=""><string-array name="usernames">
-        <item> userValue[0] </item>
+        <item>User1</item>
         <item>User2</item>
         <item>User3</item>
         <item>User4</item>

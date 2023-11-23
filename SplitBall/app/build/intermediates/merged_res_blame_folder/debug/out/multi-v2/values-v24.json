@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\14698\\Desktop\\Splitball\\SplitBall\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v24\\values-v24.xml",
+            "outputFile": "/Users/benniccum/Desktop/Splitball/SplitBall/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v24/values-v24.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\14698\\.gradle\\caches\\transforms-3\\18333b2219159932fe8c8492401c9daf\\transformed\\material-1.6.0\\res\\values-v24\\values-v24.xml",
+                    "source": "/Users/benniccum/.gradle/caches/transforms-3/18333b2219159932fe8c8492401c9daf/transformed/material-1.6.0/res/values-v24/values-v24.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,9,12,15",
                         "startColumns": "4,4,4,4,4,4,4,4",
@@ -23,7 +23,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\14698\\.gradle\\caches\\transforms-3\\19075c4677e37e538c54d7f745fc8af4\\transformed\\appcompat-1.4.1\\res\\values-v24\\values-v24.xml",
+                    "source": "/Users/benniccum/.gradle/caches/transforms-3/19075c4677e37e538c54d7f745fc8af4/transformed/appcompat-1.4.1/res/values-v24/values-v24.xml",
                     "from": {
                         "startLines": "2,3",
                         "startColumns": "4,4",

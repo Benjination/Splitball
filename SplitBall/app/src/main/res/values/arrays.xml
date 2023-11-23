@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string-array name="usernames">
-        <item> userValue[0] </item>
+        <item>User1</item>
         <item>User2</item>
         <item>User3</item>
         <item>User4</item>

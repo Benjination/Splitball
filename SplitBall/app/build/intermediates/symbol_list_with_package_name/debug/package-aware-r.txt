@@ -2618,7 +2618,6 @@ id autoCompleteToStart
 id backToMain
 id backToMainSP
 id barrier
-id barrier2
 id baseline
 id beginOnFirstDraw
 id beginning
@@ -2893,7 +2892,6 @@ id progress_horizontal
 id radio
 id ratio
 id rectangles
-id restart
 id resume
 id reverseSawtooth
 id right
@@ -2993,7 +2991,6 @@ id textSpacerNoTitle
 id textStart
 id textTop
 id textView
-id textView2
 id text_input_end_icon
 id text_input_error_icon
 id text_input_start_icon
@@ -3025,6 +3022,16 @@ id uniform
 id unlabeled
 id up
 id useLogo
+id user1
+id user10
+id user2
+id user3
+id user4
+id user5
+id user6
+id user7
+id user8
+id user9
 id vertical_only
 id view_offset_helper
 id view_transition

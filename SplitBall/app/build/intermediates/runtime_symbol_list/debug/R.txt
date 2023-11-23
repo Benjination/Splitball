@@ -2617,7 +2617,6 @@ int id autoCompleteToStart 0x7f09005e
 int id backToMain 0x7f09005f
 int id backToMainSP 0x7f090060
 int id barrier 0x7f090061
-int id barrier2 0x7f090206
 int id baseline 0x7f090062
 int id beginOnFirstDraw 0x7f090063
 int id beginning 0x7f090064
@@ -2892,7 +2891,6 @@ int id progress_horizontal 0x7f09016e
 int id radio 0x7f09016f
 int id ratio 0x7f090170
 int id rectangles 0x7f090171
-int id restart 0x7f090208
 int id resume 0x7f090209
 int id reverseSawtooth 0x7f090172
 int id right 0x7f090173
@@ -2992,7 +2990,6 @@ int id textSpacerNoTitle 0x7f0901d0
 int id textStart 0x7f0901d1
 int id textTop 0x7f0901d2
 int id textView 0x7f0901d3
-int id textView2 0x7f0901d4
 int id text_input_end_icon 0x7f0901d5
 int id text_input_error_icon 0x7f0901d6
 int id text_input_start_icon 0x7f0901d7
@@ -3024,6 +3021,16 @@ int id uniform 0x7f0901f0
 int id unlabeled 0x7f0901f1
 int id up 0x7f0901f2
 int id useLogo 0x7f0901f3
+int id user1 0x7f09020a
+int id user10 0x7f09020b
+int id user2 0x7f09020c
+int id user3 0x7f09020d
+int id user4 0x7f09020e
+int id user5 0x7f09020f
+int id user6 0x7f090210
+int id user7 0x7f090211
+int id user8 0x7f090212
+int id user9 0x7f090213
 int id vertical_only 0x7f0901f4
 int id view_offset_helper 0x7f0901f5
 int id view_transition 0x7f0901f6

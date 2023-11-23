@@ -3,6 +3,7 @@ package com.example.splitball;
 import android.content.Intent;
 import android.os.Bundle;
 import android.widget.Button;
+import android.widget.TextView;
 
 import androidx.appcompat.app.AppCompatActivity;
 import java.io.BufferedReader;
@@ -42,6 +43,30 @@ public class Leaderboard extends AppCompatActivity {
             } catch (IOException e) {
                 e.printStackTrace();
             }
+
+
+            TextView user1 = findViewById(R.id.user1);
+            TextView user2 = findViewById(R.id.user2);
+            TextView user3 = findViewById(R.id.user3);
+            TextView user4 = findViewById(R.id.user4);
+            TextView user5 = findViewById(R.id.user5);
+            TextView user6 = findViewById(R.id.user6);
+            TextView user7 = findViewById(R.id.user7);
+            TextView user8 = findViewById(R.id.user8);
+            TextView user9 = findViewById(R.id.user9);
+            TextView user10 = findViewById(R.id.user10);
+            user1.setText(userValue.get(0) + ": " + highScores.get(0));
+            user2.setText(userValue.get(1) + ": " + highScores.get(1));
+            user3.setText(userValue.get(2) + ": " + highScores.get(2));
+            user4.setText(userValue.get(3) + ": " + highScores.get(3));
+            user5.setText(userValue.get(4) + ": " + highScores.get(4));
+            user6.setText(userValue.get(5) + ": " + highScores.get(5));
+            user7.setText(userValue.get(6) + ": " + highScores.get(6));
+            user8.setText(userValue.get(7) + ": " + highScores.get(7));
+            user9.setText(userValue.get(8) + ": " + highScores.get(8));
+            user10.setText(userValue.get(9) + ": " + highScores.get(9));
+
+
 
 
             Button backToMain = findViewById(R.id.backToMain);

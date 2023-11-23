@@ -1,7 +1,7 @@
-com/example/splitball/MusicPlayer.java
- com.example.splitball.MusicPlayer
 com/example/splitball/BuildConfig.java
  com.example.splitball.BuildConfig
+com/example/splitball/MusicPlayer.java
+ com.example.splitball.MusicPlayer
 com/example/splitball/Player.java
  com.example.splitball.Player
 com/example/splitball/SFXSP.java

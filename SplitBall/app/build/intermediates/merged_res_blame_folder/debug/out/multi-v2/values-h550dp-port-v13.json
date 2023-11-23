@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\14698\\Desktop\\Splitball\\SplitBall\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-h550dp-port-v13\\values-h550dp-port-v13.xml",
+            "outputFile": "/Users/benniccum/Desktop/Splitball/SplitBall/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-h550dp-port-v13/values-h550dp-port-v13.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\14698\\.gradle\\caches\\transforms-3\\18333b2219159932fe8c8492401c9daf\\transformed\\material-1.6.0\\res\\values-h550dp-port-v13\\values-h550dp-port-v13.xml",
+                    "source": "/Users/benniccum/.gradle/caches/transforms-3/18333b2219159932fe8c8492401c9daf/transformed/material-1.6.0/res/values-h550dp-port-v13/values-h550dp-port-v13.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
