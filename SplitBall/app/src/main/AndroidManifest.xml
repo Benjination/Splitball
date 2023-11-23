@@ -16,6 +16,8 @@
             </intent-filter>
         </activity>
         <activity android:name=".Classroom" />
+        <activity android:name=".LeaderboardF" />
+        <activity android:name=".LeaderboardG" />
         <activity android:name=".GameOver" />
         <activity android:name=".Languages" />
         <activity android:name=".LanguagesSP" />

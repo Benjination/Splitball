@@ -3,21 +3,12 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/Users/14698/Desktop/Splitball/SplitBall/app/src/main/res/layout/activity_classroom.xml" value="0.2" />
-        <entry key="..\:/Users/14698/Desktop/Splitball/SplitBall/app/src/main/res/layout/activity_gameover.xml" value="0.2" />
-        <entry key="..\:/Users/14698/Desktop/Splitball/SplitBall/app/src/main/res/layout/activity_leaderboard.xml" value="0.1875" />
-        <entry key="..\:/Users/14698/Desktop/Splitball/SplitBall/app/src/main/res/layout/activity_leaderboard_sp.xml" value="0.1875" />
-        <entry key="..\:/Users/14698/Desktop/Splitball/SplitBall/app/src/main/res/layout/activity_main_menu.xml" value="0.1519230769230769" />
-        <entry key="..\:/Users/14698/Desktop/Splitball/SplitBall/app/src/main/res/layout/activity_main_menu_sp.xml" value="0.1" />
-        <entry key="..\:/Users/14698/Desktop/Splitball/SplitBall/app/src/main/res/layout/activity_pause_screen.xml" value="0.2" />
-        <entry key="..\:/Users/14698/Desktop/Splitball/SplitBall/app/src/main/res/layout/activity_settings.xml" value="0.1519230769230769" />
-        <entry key="..\:/Users/14698/Desktop/Splitball/SplitBall/app/src/main/res/layout/activity_settings_sp.xml" value="0.1519230769230769" />
-        <entry key="..\:/Users/14698/Desktop/Splitball/SplitBall/app/src/main/res/layout/activity_social.xml" value="0.1875" />
-        <entry key="..\:/Users/14698/Desktop/Splitball/SplitBall/app/src/main/res/layout/activity_social_sp.xml" value="0.1875" />
         <entry key="app/src/main/res/layout/activity_classroom.xml" value="0.29052734375" />
         <entry key="app/src/main/res/layout/activity_languages.xml" value="0.335" />
         <entry key="app/src/main/res/layout/activity_languages_sp.xml" value="0.29052734375" />
         <entry key="app/src/main/res/layout/activity_leaderboard.xml" value="0.29052734375" />
+        <entry key="app/src/main/res/layout/activity_leaderboardf.xml" value="0.29052734375" />
+        <entry key="app/src/main/res/layout/activity_leaderboardg.xml" value="0.29052734375" />
         <entry key="app/src/main/res/layout/activity_main_menu.xml" value="0.375" />
         <entry key="app/src/main/res/layout/activity_main_menu_sp.xml" value="0.29052734375" />
         <entry key="app/src/main/res/layout/activity_music.xml" value="0.29052734375" />

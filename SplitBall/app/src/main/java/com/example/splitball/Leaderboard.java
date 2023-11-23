@@ -12,7 +12,6 @@ import java.io.InputStream;
 import java.io.InputStreamReader;
 import java.util.ArrayList;
 import java.util.List;
-import java.util.ResourceBundle;
 
 public class Leaderboard extends AppCompatActivity {
 
@@ -23,8 +22,8 @@ public class Leaderboard extends AppCompatActivity {
 
         // Read the CSV file from the raw folder
         InputStream inputStream = getResources().openRawResource(R.raw.leaderboardl);
-        List<String> userValue = new ArrayList<String>();
-        List<Integer> highScores = new ArrayList<Integer>();
+        List<String> userValue = new ArrayList<>();
+        List<Integer> highScores = new ArrayList<>();
         BufferedReader reader = new BufferedReader(new InputStreamReader(inputStream));
         try {
             String csvLine;
@@ -55,16 +54,16 @@ public class Leaderboard extends AppCompatActivity {
             TextView user8 = findViewById(R.id.user8);
             TextView user9 = findViewById(R.id.user9);
             TextView user10 = findViewById(R.id.user10);
-            user1.setText(userValue.get(0) + ": " + highScores.get(0));
-            user2.setText(userValue.get(1) + ": " + highScores.get(1));
-            user3.setText(userValue.get(2) + ": " + highScores.get(2));
-            user4.setText(userValue.get(3) + ": " + highScores.get(3));
-            user5.setText(userValue.get(4) + ": " + highScores.get(4));
-            user6.setText(userValue.get(5) + ": " + highScores.get(5));
-            user7.setText(userValue.get(6) + ": " + highScores.get(6));
-            user8.setText(userValue.get(7) + ": " + highScores.get(7));
-            user9.setText(userValue.get(8) + ": " + highScores.get(8));
-            user10.setText(userValue.get(9) + ": " + highScores.get(9));
+            user1.setText("1. " + userValue.get(0) + ": " + highScores.get(0));
+            user2.setText("2. " + userValue.get(1) + ": " + highScores.get(1));
+            user3.setText("3. " + userValue.get(2) + ": " + highScores.get(2));
+            user4.setText("4. " + userValue.get(3) + ": " + highScores.get(3));
+            user5.setText("5. " + userValue.get(4) + ": " + highScores.get(4));
+            user6.setText("6. " + userValue.get(5) + ": " + highScores.get(5));
+            user7.setText("7. " + userValue.get(6) + ": " + highScores.get(6));
+            user8.setText("8. " + userValue.get(7) + ": " + highScores.get(7));
+            user9.setText("9. " + userValue.get(8) + ": " + highScores.get(8));
+            user10.setText("10. " + userValue.get(9) + ": " + highScores.get(9));
 
 
 
@@ -72,6 +71,16 @@ public class Leaderboard extends AppCompatActivity {
             Button backToMain = findViewById(R.id.backToMain);
             backToMain.setOnClickListener(v -> {
                 Intent intent = new Intent(Leaderboard.this, MainMenu.class);
+                startActivity(intent);
+            });
+            Button global = findViewById(R.id.global);
+            global.setOnClickListener(v -> {
+                Intent intent = new Intent(Leaderboard.this, LeaderboardG.class);
+                startActivity(intent);
+            });
+            Button friends = findViewById(R.id.friends);
+            friends.setOnClickListener(v -> {
+                Intent intent = new Intent(Leaderboard.this, LeaderboardF.class);
                 startActivity(intent);
             });
         }

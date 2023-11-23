@@ -6,112 +6,118 @@
 6
 7    <uses-sdk
 8        android:minSdkVersion="21"
-8-->C:\Users\14698\Desktop\Splitball\SplitBall\app\src\main\AndroidManifest.xml
+8-->/Users/benniccum/Desktop/Splitball/SplitBall/app/src/main/AndroidManifest.xml
 9        android:targetSdkVersion="34" />
-9-->C:\Users\14698\Desktop\Splitball\SplitBall\app\src\main\AndroidManifest.xml
+9-->/Users/benniccum/Desktop/Splitball/SplitBall/app/src/main/AndroidManifest.xml
 10
 11    <application
-11-->C:\Users\14698\Desktop\Splitball\SplitBall\app\src\main\AndroidManifest.xml:5:5-35:19
+11-->/Users/benniccum/Desktop/Splitball/SplitBall/app/src/main/AndroidManifest.xml:5:5-37:19
 12        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
-12-->[androidx.core:core:1.7.0] C:\Users\14698\.gradle\caches\transforms-3\9339927e08badd09bc5459e4ba900d5f\transformed\core-1.7.0\AndroidManifest.xml:24:18-86
+12-->[androidx.core:core:1.7.0] /Users/benniccum/.gradle/caches/transforms-3/9339927e08badd09bc5459e4ba900d5f/transformed/core-1.7.0/AndroidManifest.xml:24:18-86
 13        android:debuggable="true"
 14        android:icon="@mipmap/ic_launcher"
-14-->C:\Users\14698\Desktop\Splitball\SplitBall\app\src\main\AndroidManifest.xml:6:9-43
+14-->/Users/benniccum/Desktop/Splitball/SplitBall/app/src/main/AndroidManifest.xml:6:9-43
 15        android:label="@string/app_name"
-15-->C:\Users\14698\Desktop\Splitball\SplitBall\app\src\main\AndroidManifest.xml:7:9-41
+15-->/Users/benniccum/Desktop/Splitball/SplitBall/app/src/main/AndroidManifest.xml:7:9-41
 16        android:testOnly="true"
 17        android:theme="@style/Theme.SplitBall" >
-17-->C:\Users\14698\Desktop\Splitball\SplitBall\app\src\main\AndroidManifest.xml:8:9-47
+17-->/Users/benniccum/Desktop/Splitball/SplitBall/app/src/main/AndroidManifest.xml:8:9-47
 18        <activity
-18-->C:\Users\14698\Desktop\Splitball\SplitBall\app\src\main\AndroidManifest.xml:9:9-17:20
+18-->/Users/benniccum/Desktop/Splitball/SplitBall/app/src/main/AndroidManifest.xml:9:9-17:20
 19            android:name="com.example.splitball.MainMenu"
-19-->C:\Users\14698\Desktop\Splitball\SplitBall\app\src\main\AndroidManifest.xml:10:13-37
+19-->/Users/benniccum/Desktop/Splitball/SplitBall/app/src/main/AndroidManifest.xml:10:13-37
 20            android:exported="true" >
-20-->C:\Users\14698\Desktop\Splitball\SplitBall\app\src\main\AndroidManifest.xml:11:13-36
+20-->/Users/benniccum/Desktop/Splitball/SplitBall/app/src/main/AndroidManifest.xml:11:13-36
 21            <intent-filter>
-21-->C:\Users\14698\Desktop\Splitball\SplitBall\app\src\main\AndroidManifest.xml:12:13-16:29
+21-->/Users/benniccum/Desktop/Splitball/SplitBall/app/src/main/AndroidManifest.xml:12:13-16:29
 22                <action android:name="android.intent.action.MAIN" />
-22-->C:\Users\14698\Desktop\Splitball\SplitBall\app\src\main\AndroidManifest.xml:13:17-69
-22-->C:\Users\14698\Desktop\Splitball\SplitBall\app\src\main\AndroidManifest.xml:13:25-66
+22-->/Users/benniccum/Desktop/Splitball/SplitBall/app/src/main/AndroidManifest.xml:13:17-69
+22-->/Users/benniccum/Desktop/Splitball/SplitBall/app/src/main/AndroidManifest.xml:13:25-66
 23
 24                <category android:name="android.intent.category.LAUNCHER" />
-24-->C:\Users\14698\Desktop\Splitball\SplitBall\app\src\main\AndroidManifest.xml:15:17-77
-24-->C:\Users\14698\Desktop\Splitball\SplitBall\app\src\main\AndroidManifest.xml:15:27-74
+24-->/Users/benniccum/Desktop/Splitball/SplitBall/app/src/main/AndroidManifest.xml:15:17-77
+24-->/Users/benniccum/Desktop/Splitball/SplitBall/app/src/main/AndroidManifest.xml:15:27-74
 25            </intent-filter>
 26        </activity>
 27        <activity android:name="com.example.splitball.Classroom" />
-27-->C:\Users\14698\Desktop\Splitball\SplitBall\app\src\main\AndroidManifest.xml:18:9-47
-27-->C:\Users\14698\Desktop\Splitball\SplitBall\app\src\main\AndroidManifest.xml:18:19-44
-28        <activity android:name="com.example.splitball.GameOver" />
-28-->C:\Users\14698\Desktop\Splitball\SplitBall\app\src\main\AndroidManifest.xml:19:9-46
-28-->C:\Users\14698\Desktop\Splitball\SplitBall\app\src\main\AndroidManifest.xml:19:19-43
-29        <activity android:name="com.example.splitball.Languages" />
-29-->C:\Users\14698\Desktop\Splitball\SplitBall\app\src\main\AndroidManifest.xml:20:9-47
-29-->C:\Users\14698\Desktop\Splitball\SplitBall\app\src\main\AndroidManifest.xml:20:19-44
-30        <activity android:name="com.example.splitball.LanguagesSP" />
-30-->C:\Users\14698\Desktop\Splitball\SplitBall\app\src\main\AndroidManifest.xml:21:9-49
-30-->C:\Users\14698\Desktop\Splitball\SplitBall\app\src\main\AndroidManifest.xml:21:19-46
-31        <activity android:name="com.example.splitball.Leaderboard" />
-31-->C:\Users\14698\Desktop\Splitball\SplitBall\app\src\main\AndroidManifest.xml:22:9-49
-31-->C:\Users\14698\Desktop\Splitball\SplitBall\app\src\main\AndroidManifest.xml:22:19-46
-32        <activity android:name="com.example.splitball.LeaderboardSP" />
-32-->C:\Users\14698\Desktop\Splitball\SplitBall\app\src\main\AndroidManifest.xml:23:9-51
-32-->C:\Users\14698\Desktop\Splitball\SplitBall\app\src\main\AndroidManifest.xml:23:19-48
-33        <activity android:name="com.example.splitball.MainMenuSP" />
-33-->C:\Users\14698\Desktop\Splitball\SplitBall\app\src\main\AndroidManifest.xml:24:9-48
-33-->C:\Users\14698\Desktop\Splitball\SplitBall\app\src\main\AndroidManifest.xml:24:19-45
-34        <activity android:name="com.example.splitball.Music" />
-34-->C:\Users\14698\Desktop\Splitball\SplitBall\app\src\main\AndroidManifest.xml:25:9-43
-34-->C:\Users\14698\Desktop\Splitball\SplitBall\app\src\main\AndroidManifest.xml:25:19-40
-35        <activity android:name="com.example.splitball.MusicSP" />
-35-->C:\Users\14698\Desktop\Splitball\SplitBall\app\src\main\AndroidManifest.xml:26:9-45
-35-->C:\Users\14698\Desktop\Splitball\SplitBall\app\src\main\AndroidManifest.xml:26:19-42
-36        <activity android:name="com.example.splitball.Mute" />
-36-->C:\Users\14698\Desktop\Splitball\SplitBall\app\src\main\AndroidManifest.xml:27:9-42
-36-->C:\Users\14698\Desktop\Splitball\SplitBall\app\src\main\AndroidManifest.xml:27:19-39
-37        <activity android:name="com.example.splitball.MuteSP" />
-37-->C:\Users\14698\Desktop\Splitball\SplitBall\app\src\main\AndroidManifest.xml:28:9-44
-37-->C:\Users\14698\Desktop\Splitball\SplitBall\app\src\main\AndroidManifest.xml:28:19-41
-38        <activity android:name="com.example.splitball.PauseScreen" />
-38-->C:\Users\14698\Desktop\Splitball\SplitBall\app\src\main\AndroidManifest.xml:29:9-49
-38-->C:\Users\14698\Desktop\Splitball\SplitBall\app\src\main\AndroidManifest.xml:29:19-46
-39        <activity android:name="com.example.splitball.Settings" />
-39-->C:\Users\14698\Desktop\Splitball\SplitBall\app\src\main\AndroidManifest.xml:30:9-46
-39-->C:\Users\14698\Desktop\Splitball\SplitBall\app\src\main\AndroidManifest.xml:30:19-43
-40        <activity android:name="com.example.splitball.SettingsSP" />
-40-->C:\Users\14698\Desktop\Splitball\SplitBall\app\src\main\AndroidManifest.xml:31:9-48
-40-->C:\Users\14698\Desktop\Splitball\SplitBall\app\src\main\AndroidManifest.xml:31:19-45
-41        <activity android:name="com.example.splitball.SFX" />
-41-->C:\Users\14698\Desktop\Splitball\SplitBall\app\src\main\AndroidManifest.xml:32:9-41
-41-->C:\Users\14698\Desktop\Splitball\SplitBall\app\src\main\AndroidManifest.xml:32:19-38
-42        <activity android:name="com.example.splitball.SFXSP" />
-42-->C:\Users\14698\Desktop\Splitball\SplitBall\app\src\main\AndroidManifest.xml:33:9-43
-42-->C:\Users\14698\Desktop\Splitball\SplitBall\app\src\main\AndroidManifest.xml:33:19-40
-43        <activity android:name="com.example.splitball.Social" />
-43-->C:\Users\14698\Desktop\Splitball\SplitBall\app\src\main\AndroidManifest.xml:34:9-44
-43-->C:\Users\14698\Desktop\Splitball\SplitBall\app\src\main\AndroidManifest.xml:34:19-41
-44
-45        <provider
-45-->[androidx.emoji2:emoji2:1.0.0] C:\Users\14698\.gradle\caches\transforms-3\09b79be83fba3907471fe1de63f439d3\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:26:9-34:20
-46            android:name="androidx.startup.InitializationProvider"
-46-->[androidx.emoji2:emoji2:1.0.0] C:\Users\14698\.gradle\caches\transforms-3\09b79be83fba3907471fe1de63f439d3\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:27:13-67
-47            android:authorities="com.example.splitball.androidx-startup"
-47-->[androidx.emoji2:emoji2:1.0.0] C:\Users\14698\.gradle\caches\transforms-3\09b79be83fba3907471fe1de63f439d3\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:28:13-68
-48            android:exported="false" >
-48-->[androidx.emoji2:emoji2:1.0.0] C:\Users\14698\.gradle\caches\transforms-3\09b79be83fba3907471fe1de63f439d3\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:29:13-37
-49            <meta-data
-49-->[androidx.emoji2:emoji2:1.0.0] C:\Users\14698\.gradle\caches\transforms-3\09b79be83fba3907471fe1de63f439d3\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:31:13-33:52
-50                android:name="androidx.emoji2.text.EmojiCompatInitializer"
-50-->[androidx.emoji2:emoji2:1.0.0] C:\Users\14698\.gradle\caches\transforms-3\09b79be83fba3907471fe1de63f439d3\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:32:17-75
-51                android:value="androidx.startup" />
-51-->[androidx.emoji2:emoji2:1.0.0] C:\Users\14698\.gradle\caches\transforms-3\09b79be83fba3907471fe1de63f439d3\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:33:17-49
-52            <meta-data
-52-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\14698\.gradle\caches\transforms-3\0e4a425e61d135d109d64d5f17d999df\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:31:13-33:52
-53                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
-53-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\14698\.gradle\caches\transforms-3\0e4a425e61d135d109d64d5f17d999df\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:32:17-78
-54                android:value="androidx.startup" />
-54-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\14698\.gradle\caches\transforms-3\0e4a425e61d135d109d64d5f17d999df\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:33:17-49
-55        </provider>
-56    </application>
-57
-58</manifest>
+27-->/Users/benniccum/Desktop/Splitball/SplitBall/app/src/main/AndroidManifest.xml:18:9-47
+27-->/Users/benniccum/Desktop/Splitball/SplitBall/app/src/main/AndroidManifest.xml:18:19-44
+28        <activity android:name="com.example.splitball.LeaderboardF" />
+28-->/Users/benniccum/Desktop/Splitball/SplitBall/app/src/main/AndroidManifest.xml:19:9-50
+28-->/Users/benniccum/Desktop/Splitball/SplitBall/app/src/main/AndroidManifest.xml:19:19-47
+29        <activity android:name="com.example.splitball.LeaderboardG" />
+29-->/Users/benniccum/Desktop/Splitball/SplitBall/app/src/main/AndroidManifest.xml:20:9-50
+29-->/Users/benniccum/Desktop/Splitball/SplitBall/app/src/main/AndroidManifest.xml:20:19-47
+30        <activity android:name="com.example.splitball.GameOver" />
+30-->/Users/benniccum/Desktop/Splitball/SplitBall/app/src/main/AndroidManifest.xml:21:9-46
+30-->/Users/benniccum/Desktop/Splitball/SplitBall/app/src/main/AndroidManifest.xml:21:19-43
+31        <activity android:name="com.example.splitball.Languages" />
+31-->/Users/benniccum/Desktop/Splitball/SplitBall/app/src/main/AndroidManifest.xml:22:9-47
+31-->/Users/benniccum/Desktop/Splitball/SplitBall/app/src/main/AndroidManifest.xml:22:19-44
+32        <activity android:name="com.example.splitball.LanguagesSP" />
+32-->/Users/benniccum/Desktop/Splitball/SplitBall/app/src/main/AndroidManifest.xml:23:9-49
+32-->/Users/benniccum/Desktop/Splitball/SplitBall/app/src/main/AndroidManifest.xml:23:19-46
+33        <activity android:name="com.example.splitball.Leaderboard" />
+33-->/Users/benniccum/Desktop/Splitball/SplitBall/app/src/main/AndroidManifest.xml:24:9-49
+33-->/Users/benniccum/Desktop/Splitball/SplitBall/app/src/main/AndroidManifest.xml:24:19-46
+34        <activity android:name="com.example.splitball.LeaderboardSP" />
+34-->/Users/benniccum/Desktop/Splitball/SplitBall/app/src/main/AndroidManifest.xml:25:9-51
+34-->/Users/benniccum/Desktop/Splitball/SplitBall/app/src/main/AndroidManifest.xml:25:19-48
+35        <activity android:name="com.example.splitball.MainMenuSP" />
+35-->/Users/benniccum/Desktop/Splitball/SplitBall/app/src/main/AndroidManifest.xml:26:9-48
+35-->/Users/benniccum/Desktop/Splitball/SplitBall/app/src/main/AndroidManifest.xml:26:19-45
+36        <activity android:name="com.example.splitball.Music" />
+36-->/Users/benniccum/Desktop/Splitball/SplitBall/app/src/main/AndroidManifest.xml:27:9-43
+36-->/Users/benniccum/Desktop/Splitball/SplitBall/app/src/main/AndroidManifest.xml:27:19-40
+37        <activity android:name="com.example.splitball.MusicSP" />
+37-->/Users/benniccum/Desktop/Splitball/SplitBall/app/src/main/AndroidManifest.xml:28:9-45
+37-->/Users/benniccum/Desktop/Splitball/SplitBall/app/src/main/AndroidManifest.xml:28:19-42
+38        <activity android:name="com.example.splitball.Mute" />
+38-->/Users/benniccum/Desktop/Splitball/SplitBall/app/src/main/AndroidManifest.xml:29:9-42
+38-->/Users/benniccum/Desktop/Splitball/SplitBall/app/src/main/AndroidManifest.xml:29:19-39
+39        <activity android:name="com.example.splitball.MuteSP" />
+39-->/Users/benniccum/Desktop/Splitball/SplitBall/app/src/main/AndroidManifest.xml:30:9-44
+39-->/Users/benniccum/Desktop/Splitball/SplitBall/app/src/main/AndroidManifest.xml:30:19-41
+40        <activity android:name="com.example.splitball.PauseScreen" />
+40-->/Users/benniccum/Desktop/Splitball/SplitBall/app/src/main/AndroidManifest.xml:31:9-49
+40-->/Users/benniccum/Desktop/Splitball/SplitBall/app/src/main/AndroidManifest.xml:31:19-46
+41        <activity android:name="com.example.splitball.Settings" />
+41-->/Users/benniccum/Desktop/Splitball/SplitBall/app/src/main/AndroidManifest.xml:32:9-46
+41-->/Users/benniccum/Desktop/Splitball/SplitBall/app/src/main/AndroidManifest.xml:32:19-43
+42        <activity android:name="com.example.splitball.SettingsSP" />
+42-->/Users/benniccum/Desktop/Splitball/SplitBall/app/src/main/AndroidManifest.xml:33:9-48
+42-->/Users/benniccum/Desktop/Splitball/SplitBall/app/src/main/AndroidManifest.xml:33:19-45
+43        <activity android:name="com.example.splitball.SFX" />
+43-->/Users/benniccum/Desktop/Splitball/SplitBall/app/src/main/AndroidManifest.xml:34:9-41
+43-->/Users/benniccum/Desktop/Splitball/SplitBall/app/src/main/AndroidManifest.xml:34:19-38
+44        <activity android:name="com.example.splitball.SFXSP" />
+44-->/Users/benniccum/Desktop/Splitball/SplitBall/app/src/main/AndroidManifest.xml:35:9-43
+44-->/Users/benniccum/Desktop/Splitball/SplitBall/app/src/main/AndroidManifest.xml:35:19-40
+45        <activity android:name="com.example.splitball.Social" />
+45-->/Users/benniccum/Desktop/Splitball/SplitBall/app/src/main/AndroidManifest.xml:36:9-44
+45-->/Users/benniccum/Desktop/Splitball/SplitBall/app/src/main/AndroidManifest.xml:36:19-41
+46
+47        <provider
+47-->[androidx.emoji2:emoji2:1.0.0] /Users/benniccum/.gradle/caches/transforms-3/09b79be83fba3907471fe1de63f439d3/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:26:9-34:20
+48            android:name="androidx.startup.InitializationProvider"
+48-->[androidx.emoji2:emoji2:1.0.0] /Users/benniccum/.gradle/caches/transforms-3/09b79be83fba3907471fe1de63f439d3/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:27:13-67
+49            android:authorities="com.example.splitball.androidx-startup"
+49-->[androidx.emoji2:emoji2:1.0.0] /Users/benniccum/.gradle/caches/transforms-3/09b79be83fba3907471fe1de63f439d3/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:28:13-68
+50            android:exported="false" >
+50-->[androidx.emoji2:emoji2:1.0.0] /Users/benniccum/.gradle/caches/transforms-3/09b79be83fba3907471fe1de63f439d3/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:29:13-37
+51            <meta-data
+51-->[androidx.emoji2:emoji2:1.0.0] /Users/benniccum/.gradle/caches/transforms-3/09b79be83fba3907471fe1de63f439d3/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:31:13-33:52
+52                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+52-->[androidx.emoji2:emoji2:1.0.0] /Users/benniccum/.gradle/caches/transforms-3/09b79be83fba3907471fe1de63f439d3/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:32:17-75
+53                android:value="androidx.startup" />
+53-->[androidx.emoji2:emoji2:1.0.0] /Users/benniccum/.gradle/caches/transforms-3/09b79be83fba3907471fe1de63f439d3/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:33:17-49
+54            <meta-data
+54-->[androidx.lifecycle:lifecycle-process:2.4.0] /Users/benniccum/.gradle/caches/transforms-3/0e4a425e61d135d109d64d5f17d999df/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:31:13-33:52
+55                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+55-->[androidx.lifecycle:lifecycle-process:2.4.0] /Users/benniccum/.gradle/caches/transforms-3/0e4a425e61d135d109d64d5f17d999df/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:32:17-78
+56                android:value="androidx.startup" />
+56-->[androidx.lifecycle:lifecycle-process:2.4.0] /Users/benniccum/.gradle/caches/transforms-3/0e4a425e61d135d109d64d5f17d999df/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:33:17-49
+57        </provider>
+58    </application>
+59
+60</manifest>

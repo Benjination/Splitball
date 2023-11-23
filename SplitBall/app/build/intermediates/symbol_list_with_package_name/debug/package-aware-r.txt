@@ -2738,10 +2738,12 @@ id flip
 id floating
 id forever
 id fragment_container_view_tag
+id friends
 id frost
 id fullscreen_header
 id ghost_view
 id ghost_view_holder
+id global
 id gone
 id googleplay
 id graph
@@ -2789,6 +2791,7 @@ id line3
 id linear
 id listMode
 id list_item
+id local
 id masked
 id match_constraint
 id match_parent
@@ -3155,6 +3158,8 @@ layout activity_languages
 layout activity_languages_sp
 layout activity_leaderboard
 layout activity_leaderboard_sp
+layout activity_leaderboardf
+layout activity_leaderboardg
 layout activity_main_menu
 layout activity_main_menu_sp
 layout activity_music
@@ -3294,6 +3299,7 @@ string abc_shareactionprovider_share_with
 string abc_shareactionprovider_share_with_application
 string abc_toolbar_collapse_description
 string ajustes
+string amigos
 string androidx_startup
 string app_name
 string appbar_scrolling_view_behavior
@@ -3317,6 +3323,8 @@ string exposed_dropdown_menu_content_description
 string fab_transformation_scrim_behavior
 string fab_transformation_sheet_behavior
 string first_fragment_label
+string friends
+string global
 string hide_bottom_view_on_scroll_behavior
 string icon_content_description
 string idiomas
@@ -3327,6 +3335,7 @@ string label
 string languages
 string leaderboard
 string lideres
+string local
 string m3_ref_typeface_brand_medium
 string m3_ref_typeface_brand_regular
 string m3_ref_typeface_plain_medium

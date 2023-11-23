@@ -25,6 +25,8 @@
             </intent-filter>
         </activity>
         <activity android:name="com.example.splitball.Classroom" />
+        <activity android:name="com.example.splitball.LeaderboardF" />
+        <activity android:name="com.example.splitball.LeaderboardG" />
         <activity android:name="com.example.splitball.GameOver" />
         <activity android:name="com.example.splitball.Languages" />
         <activity android:name="com.example.splitball.LanguagesSP" />

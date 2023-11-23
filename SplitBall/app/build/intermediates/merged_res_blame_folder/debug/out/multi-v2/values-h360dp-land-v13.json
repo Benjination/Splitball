@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\14698\\Desktop\\Splitball\\SplitBall\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-h360dp-land-v13\\values-h360dp-land-v13.xml",
+            "outputFile": "/Users/benniccum/Desktop/Splitball/SplitBall/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-h360dp-land-v13/values-h360dp-land-v13.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\14698\\.gradle\\caches\\transforms-3\\18333b2219159932fe8c8492401c9daf\\transformed\\material-1.6.0\\res\\values-h360dp-land-v13\\values-h360dp-land-v13.xml",
+                    "source": "/Users/benniccum/.gradle/caches/transforms-3/18333b2219159932fe8c8492401c9daf/transformed/material-1.6.0/res/values-h360dp-land-v13/values-h360dp-land-v13.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10",
                         "startColumns": "4,4,4,4,4,4,4,4,4",
