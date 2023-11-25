@@ -2460,6 +2460,7 @@ drawable design_ic_visibility
 drawable design_ic_visibility_off
 drawable design_password_eye
 drawable design_snackbar_background
+drawable heart
 drawable ic_clock_black_24dp
 drawable ic_keyboard_black_24dp
 drawable ic_launcher_background
@@ -2471,6 +2472,7 @@ drawable ic_mtrl_checked_circle
 drawable ic_mtrl_chip_checked_black
 drawable ic_mtrl_chip_checked_circle
 drawable ic_mtrl_chip_close_circle
+drawable kunai
 drawable m3_appbar_background
 drawable m3_popupmenu_background_overlay
 drawable m3_radiobutton_ripple
@@ -2514,8 +2516,11 @@ drawable notification_tile_bg
 drawable notify_panel_notification_icon_bg
 drawable origami2
 drawable paperball
+drawable paperballammo
+drawable paperplane
 drawable splitball
 drawable splitballex
+drawable star
 drawable test_custom_background
 drawable test_level_drawable
 drawable tooltip_frame_dark
@@ -2604,6 +2609,10 @@ id aligned
 id all
 id allStates
 id always
+id ammoAirplane
+id ammoKunai
+id ammoNumP
+id ammoStar
 id animateToEnd
 id animateToStart
 id antiClockwise
@@ -2752,6 +2761,9 @@ id grouping
 id groups
 id guideline
 id header_title
+id heart1
+id heart2
+id heart3
 id hideable
 id home
 id homeAsUp
@@ -2763,6 +2775,10 @@ id ifRoom
 id ignore
 id ignoreRequest
 id image
+id imageView4
+id imageView5
+id imageView6
+id imageView7
 id immediateStop
 id included
 id info

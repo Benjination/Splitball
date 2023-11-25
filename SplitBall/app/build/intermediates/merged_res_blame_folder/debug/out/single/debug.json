@@ -1,9 +1,5 @@
 [
     {
-        "merged": "/Users/benniccum/Desktop/Splitball/SplitBall/app/build/intermediates/merged_res/debug/layout_activity_music_sp.xml.flat",
-        "source": "/Users/benniccum/Desktop/Splitball/SplitBall/app/src/main/res/layout/activity_music_sp.xml"
-    },
-    {
         "merged": "/Users/benniccum/Desktop/Splitball/SplitBall/app/build/intermediates/merged_res/debug/raw_leaderboardf.csv.flat",
         "source": "/Users/benniccum/Desktop/Splitball/SplitBall/app/src/main/res/raw/leaderboardf.csv"
     },
@@ -14,6 +10,102 @@
     {
         "merged": "/Users/benniccum/Desktop/Splitball/SplitBall/app/build/intermediates/merged_res/debug/layout_activity_languages_sp.xml.flat",
         "source": "/Users/benniccum/Desktop/Splitball/SplitBall/app/src/main/res/layout/activity_languages_sp.xml"
+    },
+    {
+        "merged": "/Users/benniccum/Desktop/Splitball/SplitBall/app/build/intermediates/merged_res/debug/drawable_splitball.jpg.flat",
+        "source": "/Users/benniccum/Desktop/Splitball/SplitBall/app/src/main/res/drawable/splitball.jpg"
+    },
+    {
+        "merged": "/Users/benniccum/Desktop/Splitball/SplitBall/app/build/intermediates/merged_res/debug/layout_activity_main_menu_sp.xml.flat",
+        "source": "/Users/benniccum/Desktop/Splitball/SplitBall/app/src/main/res/layout/activity_main_menu_sp.xml"
+    },
+    {
+        "merged": "/Users/benniccum/Desktop/Splitball/SplitBall/app/build/intermediates/merged_res/debug/drawable_heart.png.flat",
+        "source": "/Users/benniccum/Desktop/Splitball/SplitBall/app/src/main/res/drawable/heart.png"
+    },
+    {
+        "merged": "/Users/benniccum/Desktop/Splitball/SplitBall/app/build/intermediates/merged_res/debug/layout_activity_pause_screen.xml.flat",
+        "source": "/Users/benniccum/Desktop/Splitball/SplitBall/app/src/main/res/layout/activity_pause_screen.xml"
+    },
+    {
+        "merged": "/Users/benniccum/Desktop/Splitball/SplitBall/app/build/intermediates/merged_res/debug/layout_activity_mute_sp.xml.flat",
+        "source": "/Users/benniccum/Desktop/Splitball/SplitBall/app/src/main/res/layout/activity_mute_sp.xml"
+    },
+    {
+        "merged": "/Users/benniccum/Desktop/Splitball/SplitBall/app/build/intermediates/merged_res/debug/drawable_origami2.jpg.flat",
+        "source": "/Users/benniccum/Desktop/Splitball/SplitBall/app/src/main/res/drawable/origami2.jpg"
+    },
+    {
+        "merged": "/Users/benniccum/Desktop/Splitball/SplitBall/app/build/intermediates/merged_res/debug/drawable_paperballammo.png.flat",
+        "source": "/Users/benniccum/Desktop/Splitball/SplitBall/app/src/main/res/drawable/paperballammo.png"
+    },
+    {
+        "merged": "/Users/benniccum/Desktop/Splitball/SplitBall/app/build/intermediates/merged_res/debug/raw_dancemusic.mp3.flat",
+        "source": "/Users/benniccum/Desktop/Splitball/SplitBall/app/src/main/res/raw/dancemusic.mp3"
+    },
+    {
+        "merged": "/Users/benniccum/Desktop/Splitball/SplitBall/app/build/intermediates/merged_res/debug/layout_activity_leaderboardfsp.xml.flat",
+        "source": "/Users/benniccum/Desktop/Splitball/SplitBall/app/src/main/res/layout/activity_leaderboardfsp.xml"
+    },
+    {
+        "merged": "/Users/benniccum/Desktop/Splitball/SplitBall/app/build/intermediates/merged_res/debug/layout_activity_gameover.xml.flat",
+        "source": "/Users/benniccum/Desktop/Splitball/SplitBall/app/src/main/res/layout/activity_gameover.xml"
+    },
+    {
+        "merged": "/Users/benniccum/Desktop/Splitball/SplitBall/app/build/intermediates/merged_res/debug/mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "/Users/benniccum/Desktop/Splitball/SplitBall/app/src/main/res/mipmap-xxxhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "/Users/benniccum/Desktop/Splitball/SplitBall/app/build/intermediates/merged_res/debug/layout_activity_leaderboardgsp.xml.flat",
+        "source": "/Users/benniccum/Desktop/Splitball/SplitBall/app/src/main/res/layout/activity_leaderboardgsp.xml"
+    },
+    {
+        "merged": "/Users/benniccum/Desktop/Splitball/SplitBall/app/build/intermediates/merged_res/debug/mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "/Users/benniccum/Desktop/Splitball/SplitBall/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "/Users/benniccum/Desktop/Splitball/SplitBall/app/build/intermediates/merged_res/debug/layout_activity_languages.xml.flat",
+        "source": "/Users/benniccum/Desktop/Splitball/SplitBall/app/src/main/res/layout/activity_languages.xml"
+    },
+    {
+        "merged": "/Users/benniccum/Desktop/Splitball/SplitBall/app/build/intermediates/merged_res/debug/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "/Users/benniccum/Desktop/Splitball/SplitBall/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml"
+    },
+    {
+        "merged": "/Users/benniccum/Desktop/Splitball/SplitBall/app/build/intermediates/merged_res/debug/layout_activity_leaderboard.xml.flat",
+        "source": "/Users/benniccum/Desktop/Splitball/SplitBall/app/src/main/res/layout/activity_leaderboard.xml"
+    },
+    {
+        "merged": "/Users/benniccum/Desktop/Splitball/SplitBall/app/build/intermediates/merged_res/debug/raw_leaderboardl.csv.flat",
+        "source": "/Users/benniccum/Desktop/Splitball/SplitBall/app/src/main/res/raw/leaderboardl.csv"
+    },
+    {
+        "merged": "/Users/benniccum/Desktop/Splitball/SplitBall/app/build/intermediates/merged_res/debug/layout_activity_social.xml.flat",
+        "source": "/Users/benniccum/Desktop/Splitball/SplitBall/app/src/main/res/layout/activity_social.xml"
+    },
+    {
+        "merged": "/Users/benniccum/Desktop/Splitball/SplitBall/app/build/intermediates/merged_res/debug/mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "/Users/benniccum/Desktop/Splitball/SplitBall/app/src/main/res/mipmap-hdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "/Users/benniccum/Desktop/Splitball/SplitBall/app/build/intermediates/merged_res/debug/drawable_star.png.flat",
+        "source": "/Users/benniccum/Desktop/Splitball/SplitBall/app/src/main/res/drawable/star.png"
+    },
+    {
+        "merged": "/Users/benniccum/Desktop/Splitball/SplitBall/app/build/intermediates/merged_res/debug/layout_activity_leaderboard_sp.xml.flat",
+        "source": "/Users/benniccum/Desktop/Splitball/SplitBall/app/src/main/res/layout/activity_leaderboard_sp.xml"
+    },
+    {
+        "merged": "/Users/benniccum/Desktop/Splitball/SplitBall/app/build/intermediates/merged_res/debug/layout_activity_settings_sp.xml.flat",
+        "source": "/Users/benniccum/Desktop/Splitball/SplitBall/app/src/main/res/layout/activity_settings_sp.xml"
+    },
+    {
+        "merged": "/Users/benniccum/Desktop/Splitball/SplitBall/app/build/intermediates/merged_res/debug/layout_activity_settings.xml.flat",
+        "source": "/Users/benniccum/Desktop/Splitball/SplitBall/app/src/main/res/layout/activity_settings.xml"
+    },
+    {
+        "merged": "/Users/benniccum/Desktop/Splitball/SplitBall/app/build/intermediates/merged_res/debug/layout_activity_music_sp.xml.flat",
+        "source": "/Users/benniccum/Desktop/Splitball/SplitBall/app/src/main/res/layout/activity_music_sp.xml"
     },
     {
         "merged": "/Users/benniccum/Desktop/Splitball/SplitBall/app/build/intermediates/merged_res/debug/mipmap-xxhdpi_ic_launcher.webp.flat",
@@ -30,14 +122,6 @@
     {
         "merged": "/Users/benniccum/Desktop/Splitball/SplitBall/app/build/intermediates/merged_res/debug/layout_activity_mute.xml.flat",
         "source": "/Users/benniccum/Desktop/Splitball/SplitBall/app/src/main/res/layout/activity_mute.xml"
-    },
-    {
-        "merged": "/Users/benniccum/Desktop/Splitball/SplitBall/app/build/intermediates/merged_res/debug/drawable_splitball.jpg.flat",
-        "source": "/Users/benniccum/Desktop/Splitball/SplitBall/app/src/main/res/drawable/splitball.jpg"
-    },
-    {
-        "merged": "/Users/benniccum/Desktop/Splitball/SplitBall/app/build/intermediates/merged_res/debug/layout_activity_main_menu_sp.xml.flat",
-        "source": "/Users/benniccum/Desktop/Splitball/SplitBall/app/src/main/res/layout/activity_main_menu_sp.xml"
     },
     {
         "merged": "/Users/benniccum/Desktop/Splitball/SplitBall/app/build/intermediates/merged_res/debug/layout_activity_classroom.xml.flat",
@@ -60,60 +144,20 @@
         "source": "/Users/benniccum/Desktop/Splitball/SplitBall/app/src/main/res/drawable/classjpg.jpg"
     },
     {
-        "merged": "/Users/benniccum/Desktop/Splitball/SplitBall/app/build/intermediates/merged_res/debug/layout_activity_pause_screen.xml.flat",
-        "source": "/Users/benniccum/Desktop/Splitball/SplitBall/app/src/main/res/layout/activity_pause_screen.xml"
-    },
-    {
-        "merged": "/Users/benniccum/Desktop/Splitball/SplitBall/app/build/intermediates/merged_res/debug/layout_activity_mute_sp.xml.flat",
-        "source": "/Users/benniccum/Desktop/Splitball/SplitBall/app/src/main/res/layout/activity_mute_sp.xml"
-    },
-    {
-        "merged": "/Users/benniccum/Desktop/Splitball/SplitBall/app/build/intermediates/merged_res/debug/drawable_origami2.jpg.flat",
-        "source": "/Users/benniccum/Desktop/Splitball/SplitBall/app/src/main/res/drawable/origami2.jpg"
-    },
-    {
-        "merged": "/Users/benniccum/Desktop/Splitball/SplitBall/app/build/intermediates/merged_res/debug/raw_dancemusic.mp3.flat",
-        "source": "/Users/benniccum/Desktop/Splitball/SplitBall/app/src/main/res/raw/dancemusic.mp3"
-    },
-    {
-        "merged": "/Users/benniccum/Desktop/Splitball/SplitBall/app/build/intermediates/merged_res/debug/layout_activity_leaderboardfsp.xml.flat",
-        "source": "/Users/benniccum/Desktop/Splitball/SplitBall/app/src/main/res/layout/activity_leaderboardfsp.xml"
+        "merged": "/Users/benniccum/Desktop/Splitball/SplitBall/app/build/intermediates/merged_res/debug/drawable_paperplane.png.flat",
+        "source": "/Users/benniccum/Desktop/Splitball/SplitBall/app/src/main/res/drawable/paperplane.png"
     },
     {
         "merged": "/Users/benniccum/Desktop/Splitball/SplitBall/app/build/intermediates/merged_res/debug/mipmap-xhdpi_ic_launcher_round.webp.flat",
         "source": "/Users/benniccum/Desktop/Splitball/SplitBall/app/src/main/res/mipmap-xhdpi/ic_launcher_round.webp"
     },
     {
-        "merged": "/Users/benniccum/Desktop/Splitball/SplitBall/app/build/intermediates/merged_res/debug/layout_activity_gameover.xml.flat",
-        "source": "/Users/benniccum/Desktop/Splitball/SplitBall/app/src/main/res/layout/activity_gameover.xml"
-    },
-    {
-        "merged": "/Users/benniccum/Desktop/Splitball/SplitBall/app/build/intermediates/merged_res/debug/mipmap-xxxhdpi_ic_launcher.webp.flat",
-        "source": "/Users/benniccum/Desktop/Splitball/SplitBall/app/src/main/res/mipmap-xxxhdpi/ic_launcher.webp"
-    },
-    {
         "merged": "/Users/benniccum/Desktop/Splitball/SplitBall/app/build/intermediates/merged_res/debug/mipmap-xhdpi_ic_launcher.webp.flat",
         "source": "/Users/benniccum/Desktop/Splitball/SplitBall/app/src/main/res/mipmap-xhdpi/ic_launcher.webp"
     },
     {
-        "merged": "/Users/benniccum/Desktop/Splitball/SplitBall/app/build/intermediates/merged_res/debug/layout_activity_leaderboardgsp.xml.flat",
-        "source": "/Users/benniccum/Desktop/Splitball/SplitBall/app/src/main/res/layout/activity_leaderboardgsp.xml"
-    },
-    {
-        "merged": "/Users/benniccum/Desktop/Splitball/SplitBall/app/build/intermediates/merged_res/debug/mipmap-xxxhdpi_ic_launcher_round.webp.flat",
-        "source": "/Users/benniccum/Desktop/Splitball/SplitBall/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.webp"
-    },
-    {
         "merged": "/Users/benniccum/Desktop/Splitball/SplitBall/app/build/intermediates/merged_res/debug/layout_activity_leaderboardf.xml.flat",
         "source": "/Users/benniccum/Desktop/Splitball/SplitBall/app/src/main/res/layout/activity_leaderboardf.xml"
-    },
-    {
-        "merged": "/Users/benniccum/Desktop/Splitball/SplitBall/app/build/intermediates/merged_res/debug/layout_activity_languages.xml.flat",
-        "source": "/Users/benniccum/Desktop/Splitball/SplitBall/app/src/main/res/layout/activity_languages.xml"
-    },
-    {
-        "merged": "/Users/benniccum/Desktop/Splitball/SplitBall/app/build/intermediates/merged_res/debug/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
-        "source": "/Users/benniccum/Desktop/Splitball/SplitBall/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml"
     },
     {
         "merged": "/Users/benniccum/Desktop/Splitball/SplitBall/app/build/intermediates/merged_res/debug/drawable-anydpi-v24_ic_launcher_foreground.xml.flat",
@@ -128,28 +172,8 @@
         "source": "/Users/benniccum/Desktop/Splitball/SplitBall/app/src/main/res/raw/leaderboardg.csv"
     },
     {
-        "merged": "/Users/benniccum/Desktop/Splitball/SplitBall/app/build/intermediates/merged_res/debug/layout_activity_leaderboard.xml.flat",
-        "source": "/Users/benniccum/Desktop/Splitball/SplitBall/app/src/main/res/layout/activity_leaderboard.xml"
-    },
-    {
-        "merged": "/Users/benniccum/Desktop/Splitball/SplitBall/app/build/intermediates/merged_res/debug/raw_leaderboardl.csv.flat",
-        "source": "/Users/benniccum/Desktop/Splitball/SplitBall/app/src/main/res/raw/leaderboardl.csv"
-    },
-    {
-        "merged": "/Users/benniccum/Desktop/Splitball/SplitBall/app/build/intermediates/merged_res/debug/layout_activity_social.xml.flat",
-        "source": "/Users/benniccum/Desktop/Splitball/SplitBall/app/src/main/res/layout/activity_social.xml"
-    },
-    {
         "merged": "/Users/benniccum/Desktop/Splitball/SplitBall/app/build/intermediates/merged_res/debug/layout_activity_sfxsp.xml.flat",
         "source": "/Users/benniccum/Desktop/Splitball/SplitBall/app/src/main/res/layout/activity_sfxsp.xml"
-    },
-    {
-        "merged": "/Users/benniccum/Desktop/Splitball/SplitBall/app/build/intermediates/merged_res/debug/mipmap-hdpi_ic_launcher_round.webp.flat",
-        "source": "/Users/benniccum/Desktop/Splitball/SplitBall/app/src/main/res/mipmap-hdpi/ic_launcher_round.webp"
-    },
-    {
-        "merged": "/Users/benniccum/Desktop/Splitball/SplitBall/app/build/intermediates/merged_res/debug/layout_activity_leaderboard_sp.xml.flat",
-        "source": "/Users/benniccum/Desktop/Splitball/SplitBall/app/src/main/res/layout/activity_leaderboard_sp.xml"
     },
     {
         "merged": "/Users/benniccum/Desktop/Splitball/SplitBall/app/build/intermediates/merged_res/debug/mipmap-hdpi_ic_launcher.webp.flat",
@@ -160,16 +184,8 @@
         "source": "/Users/benniccum/Desktop/Splitball/SplitBall/app/src/main/res/layout/activity_sfx.xml"
     },
     {
-        "merged": "/Users/benniccum/Desktop/Splitball/SplitBall/app/build/intermediates/merged_res/debug/layout_activity_settings_sp.xml.flat",
-        "source": "/Users/benniccum/Desktop/Splitball/SplitBall/app/src/main/res/layout/activity_settings_sp.xml"
-    },
-    {
         "merged": "/Users/benniccum/Desktop/Splitball/SplitBall/app/build/intermediates/merged_res/debug/layout_activity_music.xml.flat",
         "source": "/Users/benniccum/Desktop/Splitball/SplitBall/app/src/main/res/layout/activity_music.xml"
-    },
-    {
-        "merged": "/Users/benniccum/Desktop/Splitball/SplitBall/app/build/intermediates/merged_res/debug/layout_activity_settings.xml.flat",
-        "source": "/Users/benniccum/Desktop/Splitball/SplitBall/app/src/main/res/layout/activity_settings.xml"
     },
     {
         "merged": "/Users/benniccum/Desktop/Splitball/SplitBall/app/build/intermediates/merged_res/debug/mipmap-anydpi-v26_ic_launcher.xml.flat",
@@ -178,5 +194,9 @@
     {
         "merged": "/Users/benniccum/Desktop/Splitball/SplitBall/app/build/intermediates/merged_res/debug/mipmap-mdpi_ic_launcher_round.webp.flat",
         "source": "/Users/benniccum/Desktop/Splitball/SplitBall/app/src/main/res/mipmap-mdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "/Users/benniccum/Desktop/Splitball/SplitBall/app/build/intermediates/merged_res/debug/drawable_kunai.png.flat",
+        "source": "/Users/benniccum/Desktop/Splitball/SplitBall/app/src/main/res/drawable/kunai.png"
     }
 ]
