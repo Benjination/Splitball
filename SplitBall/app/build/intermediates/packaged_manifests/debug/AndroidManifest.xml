@@ -8,6 +8,8 @@
         android:minSdkVersion="21"
         android:targetSdkVersion="34" />
 
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
     <application
         android:appComponentFactory="androidx.core.app.CoreComponentFactory"
         android:debuggable="true"
@@ -36,6 +38,7 @@
         <activity android:name="com.example.splitball.LeaderboardSP" />
         <activity android:name="com.example.splitball.MainMenuSP" />
         <activity android:name="com.example.splitball.Music" />
+        <activity android:name="com.example.splitball.MusicPlayer" />
         <activity android:name="com.example.splitball.MusicSP" />
         <activity android:name="com.example.splitball.Mute" />
         <activity android:name="com.example.splitball.MuteSP" />

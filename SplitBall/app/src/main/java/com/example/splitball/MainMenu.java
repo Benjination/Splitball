@@ -1,26 +1,25 @@
 package com.example.splitball;
 
 import android.content.Intent;
+import android.media.MediaPlayer;
 import android.os.Bundle;
-import android.view.View;
 import android.widget.Button;
+import android.widget.ImageView;
+
 import androidx.appcompat.app.AppCompatActivity;
 
 public class MainMenu extends AppCompatActivity {
+
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main_menu);
 
-        //MusicPlayer musicPlayer = new MusicPlayer();
+        MediaPlayer musicPlayer = MediaPlayer.create(MainMenu.this, R.raw.dancemusic);
+        musicPlayer.start();
 
-        // Play music
-        //musicPlayer.play(this, R.raw.dancemusic);
-
-        // Stop music
-        //Add if mute = 1
-        //musicPlayer.stop();
 
         Button settings = findViewById(R.id.settings);
 

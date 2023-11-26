@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /Users/benniccum/Desktop/Splitball/SplitBall/app/src/main/AndroidManifest.xml:2:1-41:12
-INJECTED from /Users/benniccum/Desktop/Splitball/SplitBall/app/src/main/AndroidManifest.xml:2:1-41:12
-INJECTED from /Users/benniccum/Desktop/Splitball/SplitBall/app/src/main/AndroidManifest.xml:2:1-41:12
-INJECTED from /Users/benniccum/Desktop/Splitball/SplitBall/app/src/main/AndroidManifest.xml:2:1-41:12
+ADDED from /Users/benniccum/Desktop/Splitball/SplitBall/app/src/main/AndroidManifest.xml:2:1-44:12
+INJECTED from /Users/benniccum/Desktop/Splitball/SplitBall/app/src/main/AndroidManifest.xml:2:1-44:12
+INJECTED from /Users/benniccum/Desktop/Splitball/SplitBall/app/src/main/AndroidManifest.xml:2:1-44:12
+INJECTED from /Users/benniccum/Desktop/Splitball/SplitBall/app/src/main/AndroidManifest.xml:2:1-44:12
 MERGED from [com.google.android.material:material:1.6.0] /Users/benniccum/.gradle/caches/transforms-3/18333b2219159932fe8c8492401c9daf/transformed/material-1.6.0/AndroidManifest.xml:17:1-26:12
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] /Users/benniccum/.gradle/caches/transforms-3/21cb78b6b83d95329c2432a162d45553/transformed/constraintlayout-2.1.4/AndroidManifest.xml:2:1-11:12
 MERGED from [androidx.appcompat:appcompat:1.4.1] /Users/benniccum/.gradle/caches/transforms-3/19075c4677e37e538c54d7f745fc8af4/transformed/appcompat-1.4.1/AndroidManifest.xml:17:1-24:12
@@ -43,25 +43,29 @@ MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/benniccum/.gradle/
 MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/benniccum/.gradle/caches/transforms-3/30559646bdc9f3290097ba378eb99203/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.print:print:1.0.0] /Users/benniccum/.gradle/caches/transforms-3/b618f929228947d1fd03b4a852d85b00/transformed/print-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.annotation:annotation-experimental:1.1.0] /Users/benniccum/.gradle/caches/transforms-3/b521f32a8ca2115704fce9eaa65230c1/transformed/jetified-annotation-experimental-1.1.0/AndroidManifest.xml:17:1-24:12
-INJECTED from /Users/benniccum/Desktop/Splitball/SplitBall/app/src/main/AndroidManifest.xml:2:1-41:12
-INJECTED from /Users/benniccum/Desktop/Splitball/SplitBall/app/src/main/AndroidManifest.xml:2:1-41:12
-INJECTED from /Users/benniccum/Desktop/Splitball/SplitBall/app/src/main/AndroidManifest.xml:2:1-41:12
+INJECTED from /Users/benniccum/Desktop/Splitball/SplitBall/app/src/main/AndroidManifest.xml:2:1-44:12
+INJECTED from /Users/benniccum/Desktop/Splitball/SplitBall/app/src/main/AndroidManifest.xml:2:1-44:12
+INJECTED from /Users/benniccum/Desktop/Splitball/SplitBall/app/src/main/AndroidManifest.xml:2:1-44:12
 	package
 		ADDED from /Users/benniccum/Desktop/Splitball/SplitBall/app/src/main/AndroidManifest.xml:3:5-36
 		INJECTED from /Users/benniccum/Desktop/Splitball/SplitBall/app/src/main/AndroidManifest.xml
 		INJECTED from /Users/benniccum/Desktop/Splitball/SplitBall/app/src/main/AndroidManifest.xml
 	android:versionName
 		INJECTED from /Users/benniccum/Desktop/Splitball/SplitBall/app/src/main/AndroidManifest.xml
-		ADDED from /Users/benniccum/Desktop/Splitball/SplitBall/app/src/main/AndroidManifest.xml:2:1-41:12
+		ADDED from /Users/benniccum/Desktop/Splitball/SplitBall/app/src/main/AndroidManifest.xml:2:1-44:12
 		INJECTED from /Users/benniccum/Desktop/Splitball/SplitBall/app/src/main/AndroidManifest.xml
 	android:versionCode
 		INJECTED from /Users/benniccum/Desktop/Splitball/SplitBall/app/src/main/AndroidManifest.xml
-		ADDED from /Users/benniccum/Desktop/Splitball/SplitBall/app/src/main/AndroidManifest.xml:2:1-41:12
+		ADDED from /Users/benniccum/Desktop/Splitball/SplitBall/app/src/main/AndroidManifest.xml:2:1-44:12
 		INJECTED from /Users/benniccum/Desktop/Splitball/SplitBall/app/src/main/AndroidManifest.xml
 	xmlns:android
 		ADDED from /Users/benniccum/Desktop/Splitball/SplitBall/app/src/main/AndroidManifest.xml:2:11-69
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from /Users/benniccum/Desktop/Splitball/SplitBall/app/src/main/AndroidManifest.xml:5:5-79
+	android:name
+		ADDED from /Users/benniccum/Desktop/Splitball/SplitBall/app/src/main/AndroidManifest.xml:5:22-77
 application
-ADDED from /Users/benniccum/Desktop/Splitball/SplitBall/app/src/main/AndroidManifest.xml:5:5-39:19
+ADDED from /Users/benniccum/Desktop/Splitball/SplitBall/app/src/main/AndroidManifest.xml:7:5-42:19
 MERGED from [com.google.android.material:material:1.6.0] /Users/benniccum/.gradle/caches/transforms-3/18333b2219159932fe8c8492401c9daf/transformed/material-1.6.0/AndroidManifest.xml:24:5-20
 MERGED from [com.google.android.material:material:1.6.0] /Users/benniccum/.gradle/caches/transforms-3/18333b2219159932fe8c8492401c9daf/transformed/material-1.6.0/AndroidManifest.xml:24:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] /Users/benniccum/.gradle/caches/transforms-3/21cb78b6b83d95329c2432a162d45553/transformed/constraintlayout-2.1.4/AndroidManifest.xml:9:5-20
@@ -79,111 +83,115 @@ MERGED from [androidx.startup:startup-runtime:1.0.0] /Users/benniccum/.gradle/ca
 	android:appComponentFactory
 		ADDED from [androidx.core:core:1.7.0] /Users/benniccum/.gradle/caches/transforms-3/9339927e08badd09bc5459e4ba900d5f/transformed/core-1.7.0/AndroidManifest.xml:24:18-86
 	android:label
-		ADDED from /Users/benniccum/Desktop/Splitball/SplitBall/app/src/main/AndroidManifest.xml:7:9-41
+		ADDED from /Users/benniccum/Desktop/Splitball/SplitBall/app/src/main/AndroidManifest.xml:9:9-41
 	android:icon
-		ADDED from /Users/benniccum/Desktop/Splitball/SplitBall/app/src/main/AndroidManifest.xml:6:9-43
+		ADDED from /Users/benniccum/Desktop/Splitball/SplitBall/app/src/main/AndroidManifest.xml:8:9-43
 	android:theme
-		ADDED from /Users/benniccum/Desktop/Splitball/SplitBall/app/src/main/AndroidManifest.xml:8:9-47
+		ADDED from /Users/benniccum/Desktop/Splitball/SplitBall/app/src/main/AndroidManifest.xml:10:9-47
 activity#com.example.splitball.MainMenu
-ADDED from /Users/benniccum/Desktop/Splitball/SplitBall/app/src/main/AndroidManifest.xml:9:9-17:20
+ADDED from /Users/benniccum/Desktop/Splitball/SplitBall/app/src/main/AndroidManifest.xml:11:9-19:20
 	android:exported
-		ADDED from /Users/benniccum/Desktop/Splitball/SplitBall/app/src/main/AndroidManifest.xml:11:13-36
+		ADDED from /Users/benniccum/Desktop/Splitball/SplitBall/app/src/main/AndroidManifest.xml:13:13-36
 	android:name
-		ADDED from /Users/benniccum/Desktop/Splitball/SplitBall/app/src/main/AndroidManifest.xml:10:13-37
+		ADDED from /Users/benniccum/Desktop/Splitball/SplitBall/app/src/main/AndroidManifest.xml:12:13-37
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from /Users/benniccum/Desktop/Splitball/SplitBall/app/src/main/AndroidManifest.xml:12:13-16:29
+ADDED from /Users/benniccum/Desktop/Splitball/SplitBall/app/src/main/AndroidManifest.xml:14:13-18:29
 action#android.intent.action.MAIN
-ADDED from /Users/benniccum/Desktop/Splitball/SplitBall/app/src/main/AndroidManifest.xml:13:17-69
+ADDED from /Users/benniccum/Desktop/Splitball/SplitBall/app/src/main/AndroidManifest.xml:15:17-69
 	android:name
-		ADDED from /Users/benniccum/Desktop/Splitball/SplitBall/app/src/main/AndroidManifest.xml:13:25-66
+		ADDED from /Users/benniccum/Desktop/Splitball/SplitBall/app/src/main/AndroidManifest.xml:15:25-66
 category#android.intent.category.LAUNCHER
-ADDED from /Users/benniccum/Desktop/Splitball/SplitBall/app/src/main/AndroidManifest.xml:15:17-77
+ADDED from /Users/benniccum/Desktop/Splitball/SplitBall/app/src/main/AndroidManifest.xml:17:17-77
 	android:name
-		ADDED from /Users/benniccum/Desktop/Splitball/SplitBall/app/src/main/AndroidManifest.xml:15:27-74
+		ADDED from /Users/benniccum/Desktop/Splitball/SplitBall/app/src/main/AndroidManifest.xml:17:27-74
 activity#com.example.splitball.Classroom
-ADDED from /Users/benniccum/Desktop/Splitball/SplitBall/app/src/main/AndroidManifest.xml:18:9-47
+ADDED from /Users/benniccum/Desktop/Splitball/SplitBall/app/src/main/AndroidManifest.xml:20:9-47
 	android:name
-		ADDED from /Users/benniccum/Desktop/Splitball/SplitBall/app/src/main/AndroidManifest.xml:18:19-44
+		ADDED from /Users/benniccum/Desktop/Splitball/SplitBall/app/src/main/AndroidManifest.xml:20:19-44
 activity#com.example.splitball.LeaderboardF
-ADDED from /Users/benniccum/Desktop/Splitball/SplitBall/app/src/main/AndroidManifest.xml:19:9-50
+ADDED from /Users/benniccum/Desktop/Splitball/SplitBall/app/src/main/AndroidManifest.xml:21:9-50
 	android:name
-		ADDED from /Users/benniccum/Desktop/Splitball/SplitBall/app/src/main/AndroidManifest.xml:19:19-47
+		ADDED from /Users/benniccum/Desktop/Splitball/SplitBall/app/src/main/AndroidManifest.xml:21:19-47
 activity#com.example.splitball.LeaderboardFSP
-ADDED from /Users/benniccum/Desktop/Splitball/SplitBall/app/src/main/AndroidManifest.xml:20:9-52
+ADDED from /Users/benniccum/Desktop/Splitball/SplitBall/app/src/main/AndroidManifest.xml:22:9-52
 	android:name
-		ADDED from /Users/benniccum/Desktop/Splitball/SplitBall/app/src/main/AndroidManifest.xml:20:19-49
+		ADDED from /Users/benniccum/Desktop/Splitball/SplitBall/app/src/main/AndroidManifest.xml:22:19-49
 activity#com.example.splitball.LeaderboardGSP
-ADDED from /Users/benniccum/Desktop/Splitball/SplitBall/app/src/main/AndroidManifest.xml:21:9-52
+ADDED from /Users/benniccum/Desktop/Splitball/SplitBall/app/src/main/AndroidManifest.xml:23:9-52
 	android:name
-		ADDED from /Users/benniccum/Desktop/Splitball/SplitBall/app/src/main/AndroidManifest.xml:21:19-49
+		ADDED from /Users/benniccum/Desktop/Splitball/SplitBall/app/src/main/AndroidManifest.xml:23:19-49
 activity#com.example.splitball.LeaderboardG
-ADDED from /Users/benniccum/Desktop/Splitball/SplitBall/app/src/main/AndroidManifest.xml:22:9-50
+ADDED from /Users/benniccum/Desktop/Splitball/SplitBall/app/src/main/AndroidManifest.xml:24:9-50
 	android:name
-		ADDED from /Users/benniccum/Desktop/Splitball/SplitBall/app/src/main/AndroidManifest.xml:22:19-47
+		ADDED from /Users/benniccum/Desktop/Splitball/SplitBall/app/src/main/AndroidManifest.xml:24:19-47
 activity#com.example.splitball.GameOver
-ADDED from /Users/benniccum/Desktop/Splitball/SplitBall/app/src/main/AndroidManifest.xml:23:9-46
+ADDED from /Users/benniccum/Desktop/Splitball/SplitBall/app/src/main/AndroidManifest.xml:25:9-46
 	android:name
-		ADDED from /Users/benniccum/Desktop/Splitball/SplitBall/app/src/main/AndroidManifest.xml:23:19-43
+		ADDED from /Users/benniccum/Desktop/Splitball/SplitBall/app/src/main/AndroidManifest.xml:25:19-43
 activity#com.example.splitball.Languages
-ADDED from /Users/benniccum/Desktop/Splitball/SplitBall/app/src/main/AndroidManifest.xml:24:9-47
+ADDED from /Users/benniccum/Desktop/Splitball/SplitBall/app/src/main/AndroidManifest.xml:26:9-47
 	android:name
-		ADDED from /Users/benniccum/Desktop/Splitball/SplitBall/app/src/main/AndroidManifest.xml:24:19-44
+		ADDED from /Users/benniccum/Desktop/Splitball/SplitBall/app/src/main/AndroidManifest.xml:26:19-44
 activity#com.example.splitball.LanguagesSP
-ADDED from /Users/benniccum/Desktop/Splitball/SplitBall/app/src/main/AndroidManifest.xml:25:9-49
+ADDED from /Users/benniccum/Desktop/Splitball/SplitBall/app/src/main/AndroidManifest.xml:27:9-49
 	android:name
-		ADDED from /Users/benniccum/Desktop/Splitball/SplitBall/app/src/main/AndroidManifest.xml:25:19-46
+		ADDED from /Users/benniccum/Desktop/Splitball/SplitBall/app/src/main/AndroidManifest.xml:27:19-46
 activity#com.example.splitball.Leaderboard
-ADDED from /Users/benniccum/Desktop/Splitball/SplitBall/app/src/main/AndroidManifest.xml:26:9-49
+ADDED from /Users/benniccum/Desktop/Splitball/SplitBall/app/src/main/AndroidManifest.xml:28:9-49
 	android:name
-		ADDED from /Users/benniccum/Desktop/Splitball/SplitBall/app/src/main/AndroidManifest.xml:26:19-46
+		ADDED from /Users/benniccum/Desktop/Splitball/SplitBall/app/src/main/AndroidManifest.xml:28:19-46
 activity#com.example.splitball.LeaderboardSP
-ADDED from /Users/benniccum/Desktop/Splitball/SplitBall/app/src/main/AndroidManifest.xml:27:9-51
+ADDED from /Users/benniccum/Desktop/Splitball/SplitBall/app/src/main/AndroidManifest.xml:29:9-51
 	android:name
-		ADDED from /Users/benniccum/Desktop/Splitball/SplitBall/app/src/main/AndroidManifest.xml:27:19-48
+		ADDED from /Users/benniccum/Desktop/Splitball/SplitBall/app/src/main/AndroidManifest.xml:29:19-48
 activity#com.example.splitball.MainMenuSP
-ADDED from /Users/benniccum/Desktop/Splitball/SplitBall/app/src/main/AndroidManifest.xml:28:9-48
+ADDED from /Users/benniccum/Desktop/Splitball/SplitBall/app/src/main/AndroidManifest.xml:30:9-48
 	android:name
-		ADDED from /Users/benniccum/Desktop/Splitball/SplitBall/app/src/main/AndroidManifest.xml:28:19-45
+		ADDED from /Users/benniccum/Desktop/Splitball/SplitBall/app/src/main/AndroidManifest.xml:30:19-45
 activity#com.example.splitball.Music
-ADDED from /Users/benniccum/Desktop/Splitball/SplitBall/app/src/main/AndroidManifest.xml:29:9-43
+ADDED from /Users/benniccum/Desktop/Splitball/SplitBall/app/src/main/AndroidManifest.xml:31:9-43
 	android:name
-		ADDED from /Users/benniccum/Desktop/Splitball/SplitBall/app/src/main/AndroidManifest.xml:29:19-40
+		ADDED from /Users/benniccum/Desktop/Splitball/SplitBall/app/src/main/AndroidManifest.xml:31:19-40
+activity#com.example.splitball.MusicPlayer
+ADDED from /Users/benniccum/Desktop/Splitball/SplitBall/app/src/main/AndroidManifest.xml:32:9-49
+	android:name
+		ADDED from /Users/benniccum/Desktop/Splitball/SplitBall/app/src/main/AndroidManifest.xml:32:19-46
 activity#com.example.splitball.MusicSP
-ADDED from /Users/benniccum/Desktop/Splitball/SplitBall/app/src/main/AndroidManifest.xml:30:9-45
+ADDED from /Users/benniccum/Desktop/Splitball/SplitBall/app/src/main/AndroidManifest.xml:33:9-45
 	android:name
-		ADDED from /Users/benniccum/Desktop/Splitball/SplitBall/app/src/main/AndroidManifest.xml:30:19-42
+		ADDED from /Users/benniccum/Desktop/Splitball/SplitBall/app/src/main/AndroidManifest.xml:33:19-42
 activity#com.example.splitball.Mute
-ADDED from /Users/benniccum/Desktop/Splitball/SplitBall/app/src/main/AndroidManifest.xml:31:9-42
+ADDED from /Users/benniccum/Desktop/Splitball/SplitBall/app/src/main/AndroidManifest.xml:34:9-42
 	android:name
-		ADDED from /Users/benniccum/Desktop/Splitball/SplitBall/app/src/main/AndroidManifest.xml:31:19-39
+		ADDED from /Users/benniccum/Desktop/Splitball/SplitBall/app/src/main/AndroidManifest.xml:34:19-39
 activity#com.example.splitball.MuteSP
-ADDED from /Users/benniccum/Desktop/Splitball/SplitBall/app/src/main/AndroidManifest.xml:32:9-44
+ADDED from /Users/benniccum/Desktop/Splitball/SplitBall/app/src/main/AndroidManifest.xml:35:9-44
 	android:name
-		ADDED from /Users/benniccum/Desktop/Splitball/SplitBall/app/src/main/AndroidManifest.xml:32:19-41
+		ADDED from /Users/benniccum/Desktop/Splitball/SplitBall/app/src/main/AndroidManifest.xml:35:19-41
 activity#com.example.splitball.PauseScreen
-ADDED from /Users/benniccum/Desktop/Splitball/SplitBall/app/src/main/AndroidManifest.xml:33:9-49
+ADDED from /Users/benniccum/Desktop/Splitball/SplitBall/app/src/main/AndroidManifest.xml:36:9-49
 	android:name
-		ADDED from /Users/benniccum/Desktop/Splitball/SplitBall/app/src/main/AndroidManifest.xml:33:19-46
+		ADDED from /Users/benniccum/Desktop/Splitball/SplitBall/app/src/main/AndroidManifest.xml:36:19-46
 activity#com.example.splitball.Settings
-ADDED from /Users/benniccum/Desktop/Splitball/SplitBall/app/src/main/AndroidManifest.xml:34:9-46
+ADDED from /Users/benniccum/Desktop/Splitball/SplitBall/app/src/main/AndroidManifest.xml:37:9-46
 	android:name
-		ADDED from /Users/benniccum/Desktop/Splitball/SplitBall/app/src/main/AndroidManifest.xml:34:19-43
+		ADDED from /Users/benniccum/Desktop/Splitball/SplitBall/app/src/main/AndroidManifest.xml:37:19-43
 activity#com.example.splitball.SettingsSP
-ADDED from /Users/benniccum/Desktop/Splitball/SplitBall/app/src/main/AndroidManifest.xml:35:9-48
+ADDED from /Users/benniccum/Desktop/Splitball/SplitBall/app/src/main/AndroidManifest.xml:38:9-48
 	android:name
-		ADDED from /Users/benniccum/Desktop/Splitball/SplitBall/app/src/main/AndroidManifest.xml:35:19-45
+		ADDED from /Users/benniccum/Desktop/Splitball/SplitBall/app/src/main/AndroidManifest.xml:38:19-45
 activity#com.example.splitball.SFX
-ADDED from /Users/benniccum/Desktop/Splitball/SplitBall/app/src/main/AndroidManifest.xml:36:9-41
+ADDED from /Users/benniccum/Desktop/Splitball/SplitBall/app/src/main/AndroidManifest.xml:39:9-41
 	android:name
-		ADDED from /Users/benniccum/Desktop/Splitball/SplitBall/app/src/main/AndroidManifest.xml:36:19-38
+		ADDED from /Users/benniccum/Desktop/Splitball/SplitBall/app/src/main/AndroidManifest.xml:39:19-38
 activity#com.example.splitball.SFXSP
-ADDED from /Users/benniccum/Desktop/Splitball/SplitBall/app/src/main/AndroidManifest.xml:37:9-43
+ADDED from /Users/benniccum/Desktop/Splitball/SplitBall/app/src/main/AndroidManifest.xml:40:9-43
 	android:name
-		ADDED from /Users/benniccum/Desktop/Splitball/SplitBall/app/src/main/AndroidManifest.xml:37:19-40
+		ADDED from /Users/benniccum/Desktop/Splitball/SplitBall/app/src/main/AndroidManifest.xml:40:19-40
 activity#com.example.splitball.Social
-ADDED from /Users/benniccum/Desktop/Splitball/SplitBall/app/src/main/AndroidManifest.xml:38:9-44
+ADDED from /Users/benniccum/Desktop/Splitball/SplitBall/app/src/main/AndroidManifest.xml:41:9-44
 	android:name
-		ADDED from /Users/benniccum/Desktop/Splitball/SplitBall/app/src/main/AndroidManifest.xml:38:19-41
+		ADDED from /Users/benniccum/Desktop/Splitball/SplitBall/app/src/main/AndroidManifest.xml:41:19-41
 uses-sdk
 INJECTED from /Users/benniccum/Desktop/Splitball/SplitBall/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from /Users/benniccum/Desktop/Splitball/SplitBall/app/src/main/AndroidManifest.xml

@@ -2864,6 +2864,7 @@ id mtrl_picker_text_input_range_start
 id mtrl_picker_title_text
 id mtrl_view_tag_bottom_padding
 id multiply
+id music
 id musicVolume
 id musicVolumeSP
 id muteUnmute
@@ -3288,6 +3289,7 @@ raw dancemusic
 raw leaderboardf
 raw leaderboardg
 raw leaderboardl
+raw swing
 string abc_action_bar_home_description
 string abc_action_bar_up_description
 string abc_action_menu_overflow_description

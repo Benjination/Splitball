@@ -55,8 +55,8 @@ public class Classroom extends AppCompatActivity {
                 ImageView heart1 = findViewById(R.id.heart1);
                 heart1.setVisibility(View.INVISIBLE);
                 //if (playerLosesGameConditionMet) {
-                //Intent intent = new Intent(Classroom.this, GameOver.class);
-                //startActivity(intent);
+                Intent intent = new Intent(Classroom.this, GameOver.class);
+                startActivity(intent);
                 // Finish the current activity to prevent going back to the game
                 //finish();
                 break;
