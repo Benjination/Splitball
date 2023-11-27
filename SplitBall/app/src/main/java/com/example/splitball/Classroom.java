@@ -138,28 +138,23 @@ public class Classroom extends AppCompatActivity {
 
                     int marginTop = random.nextInt(908 - 532 + 1) + 532; // Random margin top between 532 and 908
                     int marginStart = random.nextInt(540 - 0 + 1);
-                    int marginEnd = 1003 - marginTop;
-                    int marginBottom = 649 -marginStart;
+
                     ViewGroup.MarginLayoutParams marginParams = (ViewGroup.MarginLayoutParams) currentBall.getLayoutParams();
-                    marginParams.setMargins(marginStart, marginTop,marginEnd, marginBottom);
+                    marginParams.setMargins(marginStart, marginTop,0, 0);
                     int bombChance = random.nextInt(20 + 1);
                     if (bombChance > 1) {
                         marginTop = random.nextInt(908 - 532 + 1) + 532; // Random margin top between 532 and 908
                         marginStart = random.nextInt(540 - 0 + 1);
-                        marginEnd = 1003 - marginTop;
-                        marginBottom = 649 -marginStart;
                         marginParams = (ViewGroup.MarginLayoutParams) ball[objects[0]].getLayoutParams();
-                        marginParams.setMargins(marginStart, marginTop,marginEnd,marginBottom);
+                        marginParams.setMargins(marginStart, marginTop,0,0);
                         ball[objects[0]].requestLayout();
                         ball[objects[0]].setVisibility(View.VISIBLE);
                         objects[0]++;
                     } else {
                         marginTop = random.nextInt(908 - 532 + 1) + 532; // Random margin top between 532 and 908
                         marginStart = random.nextInt(540 - 0 + 1);
-                        marginEnd = 1003 - marginTop;
-                        marginBottom = 649 -marginStart;
                         marginParams = (ViewGroup.MarginLayoutParams) bomb[objects[1]].getLayoutParams();
-                        marginParams.setMargins(marginStart, marginTop, marginEnd, marginBottom);
+                        marginParams.setMargins(marginStart, marginTop, 0, 0);
                         bomb[objects[1]].setVisibility(View.VISIBLE);
                         objects[1]++;
                         if(objects[0] == 0)
@@ -171,7 +166,8 @@ public class Classroom extends AppCompatActivity {
                     score[0] += 50;
                     scoreView.setText("SCORE: " + score[0]);
                 } else {
-                    ball[0].setVisibility(View.INVISIBLE);
+
+                    currentBall.setVisibility(View.INVISIBLE);
                     score[0] += 50;
                     scoreView.setText("SCORE: " + score[0]);
                     objects[0]--;
@@ -185,6 +181,7 @@ public class Classroom extends AppCompatActivity {
         }
 
             bomb[0].setOnClickListener(v -> {
+
                 lives[0]--;
                 switch (lives[0]) {
                     case 2:
@@ -230,6 +227,8 @@ public class Classroom extends AppCompatActivity {
                 ball[0].setVisibility(View.VISIBLE);
                 if(objects[0] == 1)
                     ball[0].setVisibility(View.VISIBLE);
+                ball[0].setVisibility(View.VISIBLE);
+                ball[0].setVisibility(View.VISIBLE);
 
             });
 
