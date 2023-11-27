@@ -128,8 +128,6 @@ public class Classroom extends AppCompatActivity {
         ball[0].setVisibility(View.VISIBLE);
 
         Random random = new Random();
-
-
         for (int i = 0; i < 8; i++)
         {
             final View currentBall = ball[i];
@@ -138,30 +136,37 @@ public class Classroom extends AppCompatActivity {
 
                     int marginTop = random.nextInt(908 - 532 + 1) + 532; // Random margin top between 532 and 908
                     int marginStart = random.nextInt(540 - 0 + 1);
-
                     ViewGroup.MarginLayoutParams marginParams = (ViewGroup.MarginLayoutParams) currentBall.getLayoutParams();
                     marginParams.setMargins(marginStart, marginTop,0, 0);
-                    int bombChance = random.nextInt(20 + 1);
+                    int bombChance = random.nextInt(20);
                     if (bombChance > 1) {
-                        marginTop = random.nextInt(908 - 532 + 1) + 532; // Random margin top between 532 and 908
-                        marginStart = random.nextInt(540 - 0 + 1);
-                        marginParams = (ViewGroup.MarginLayoutParams) ball[objects[0]].getLayoutParams();
-                        marginParams.setMargins(marginStart, marginTop,0,0);
-                        ball[objects[0]].requestLayout();
+                        float horizontal = random.nextInt(100);
+                        horizontal /= 100;
+                        float vertical = random.nextInt((59-20) + 20);
+                        vertical /= 100;
+                        ConstraintLayout.LayoutParams params = (ConstraintLayout.LayoutParams) currentBall.getLayoutParams();
+                        params.horizontalBias = horizontal;
+                        params.verticalBias = vertical;
+                        currentBall.setLayoutParams(params);
+                        //ball[objects[0]].requestLayout();
                         ball[objects[0]].setVisibility(View.VISIBLE);
                         objects[0]++;
                     } else {
-                        marginTop = random.nextInt(908 - 532 + 1) + 532; // Random margin top between 532 and 908
-                        marginStart = random.nextInt(540 - 0 + 1);
-                        marginParams = (ViewGroup.MarginLayoutParams) bomb[objects[1]].getLayoutParams();
-                        marginParams.setMargins(marginStart, marginTop, 0, 0);
+                        //marginTop = random.nextInt(908 - 532 + 1) + 532;
+                        //marginStart = random.nextInt(540 - 0 + 1);
+                        //marginParams = (ViewGroup.MarginLayoutParams) bomb[objects[1]].getLayoutParams();
+                        //marginParams.setMargins(marginStart, marginTop, 0, 0);
+                        float horizontal = random.nextInt((59-20) + 20);
+                        horizontal /= 100;
+                        float vertical = random.nextInt(100);
+                        vertical /= 100;
+                        ConstraintLayout.LayoutParams params = (ConstraintLayout.LayoutParams) currentBall.getLayoutParams();
+                        params.horizontalBias = horizontal;
+                        params.verticalBias = vertical;
+                        currentBall.setLayoutParams(params);
+
                         bomb[objects[1]].setVisibility(View.VISIBLE);
                         objects[1]++;
-                        if(objects[0] == 0)
-                        {
-                            ball[0].setVisibility(View.VISIBLE);
-                            objects[0]++;
-                        }
                     }
                     score[0] += 50;
                     scoreView.setText("SCORE: " + score[0]);
@@ -171,16 +176,30 @@ public class Classroom extends AppCompatActivity {
                     score[0] += 50;
                     scoreView.setText("SCORE: " + score[0]);
                     objects[0]--;
-                    if(objects[0] == 0)
+                    if(objects[0] <= 1)
                     {
+                        for (int j = 0; j < objects[1]; j++) {
+                            score[0] += 100;
+                        }
+                        objects[0] = 1;
+                        objects[1] = 0;
+                        for (int k = 0; k < 8; k++) {
+                            ball[k].setVisibility(View.INVISIBLE);
+                        }
+                        for (int j = 0; j < 7; j++) {
+                            bomb[j].setVisibility(View.INVISIBLE);
+                        }
+
                         ball[0].setVisibility(View.VISIBLE);
-                        objects[0]++;
                     }
+                    ball[0].setVisibility(View.VISIBLE);
                 }
             });
         }
+        for (int i = 0; i < 7; i++) {
 
-            bomb[0].setOnClickListener(v -> {
+
+            bomb[i].setOnClickListener(v -> {
 
                 lives[0]--;
                 switch (lives[0]) {
@@ -205,14 +224,14 @@ public class Classroom extends AppCompatActivity {
                         System.out.println("Lives should not be outside of the range 0-3. An error has occurred.");
                         break;
                 }
-                for (int i = 0; i < objects[0]; i++) {
+                for (int k = 0; k < objects[0]; k++) {
                     score[0] -= 50;
-                    if(score[0] < 0)
+                    if (score[0] < 0)
                         score[0] = 0;
                 }
-                for (int i = 0; i < objects[1]; i++) {
+                for (int j = 0; j < objects[1]; j++) {
                     score[0] -= 100;
-                    if(score[0] < 0)
+                    if (score[0] < 0)
                         score[0] = 0;
                 }
                 objects[0] = 1;
@@ -225,15 +244,11 @@ public class Classroom extends AppCompatActivity {
                 }
 
                 ball[0].setVisibility(View.VISIBLE);
-                if(objects[0] == 1)
+                if (objects[0] == 1)
                     ball[0].setVisibility(View.VISIBLE);
                 ball[0].setVisibility(View.VISIBLE);
-                ball[0].setVisibility(View.VISIBLE);
-
             });
-
-            ball[0].setVisibility(View.VISIBLE);
-
+        }
     }
 
 }
