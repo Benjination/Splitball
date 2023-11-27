@@ -2447,6 +2447,7 @@ drawable abc_vector_test
 drawable avd_hide_password
 drawable avd_show_password
 drawable ball
+drawable bomb
 drawable btn_checkbox_checked_mtrl
 drawable btn_checkbox_checked_to_unchecked_mtrl_animation
 drawable btn_checkbox_unchecked_mtrl
@@ -2632,6 +2633,10 @@ id ball0
 id ball1
 id ball2
 id ball3
+id ball4
+id ball5
+id ball6
+id ball7
 id barrier
 id barrier2
 id baseline
@@ -2639,6 +2644,13 @@ id beginOnFirstDraw
 id beginning
 id bestChoice
 id blocking
+id bomb0
+id bomb1
+id bomb2
+id bomb3
+id bomb4
+id bomb5
+id bomb6
 id bottom
 id bounce
 id bounceBoth
@@ -2867,7 +2879,6 @@ id mtrl_picker_text_input_range_start
 id mtrl_picker_title_text
 id mtrl_view_tag_bottom_padding
 id multiply
-id music
 id musicVolume
 id musicVolumeSP
 id muteUnmute

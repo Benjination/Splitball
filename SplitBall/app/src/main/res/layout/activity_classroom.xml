@@ -154,44 +154,171 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
+
     <ImageView
         android:id="@+id/ball0"
         android:layout_width="109dp"
         android:layout_height="95dp"
-        android:layout_marginStart="468dp"
-        android:layout_marginTop="396dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.513"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/ball" />
-
-    <ImageView
-        android:id="@+id/ball2"
-        android:layout_width="109dp"
-        android:layout_height="95dp"
-        android:layout_marginTop="532dp"
-        android:layout_marginStart="0dp"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/ball" />
+        app:layout_constraintVertical_bias="0.58"
+        app:srcCompat="@drawable/paperball" />
 
     <ImageView
         android:id="@+id/ball1"
         android:layout_width="109dp"
         android:layout_height="95dp"
-        android:layout_marginStart="916dp"
-        android:layout_marginTop="136dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.655"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/ball" />
+        app:layout_constraintVertical_bias="0.035"
+        app:srcCompat="@drawable/paperball" />
+
+    <ImageView
+        android:id="@+id/ball2"
+        android:layout_width="109dp"
+        android:layout_height="95dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.645"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.035"
+        app:srcCompat="@drawable/paperball" />
 
     <ImageView
         android:id="@+id/ball3"
         android:layout_width="109dp"
         android:layout_height="95dp"
-        android:layout_marginStart="908dp"
-        android:layout_marginTop="540dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.669"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/ball" />
+        app:layout_constraintVertical_bias="0.035"
+        app:srcCompat="@drawable/paperball" />
+
+    <ImageView
+        android:id="@+id/ball4"
+        android:layout_width="109dp"
+        android:layout_height="95dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.655"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.025"
+        app:srcCompat="@drawable/paperball" />
+
+    <ImageView
+        android:id="@+id/ball5"
+        android:layout_width="109dp"
+        android:layout_height="95dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.655"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.035"
+        app:srcCompat="@drawable/paperball" />
+
+    <ImageView
+        android:id="@+id/ball6"
+        android:layout_width="109dp"
+        android:layout_height="95dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.655"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.035"
+        app:srcCompat="@drawable/paperball" />
+
+    <ImageView
+        android:id="@+id/ball7"
+        android:layout_width="109dp"
+        android:layout_height="95dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.655"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.035"
+        app:srcCompat="@drawable/paperball" />
+
+    <ImageView
+        android:id="@+id/bomb1"
+        android:layout_width="98dp"
+        android:layout_height="94dp"
+        android:layout_marginStart="920dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/bomb" />
+
+    <ImageView
+        android:id="@+id/bomb3"
+        android:layout_width="98dp"
+        android:layout_height="94dp"
+        android:layout_marginStart="920dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/bomb" />
+
+    <ImageView
+        android:id="@+id/bomb4"
+        android:layout_width="98dp"
+        android:layout_height="94dp"
+        android:layout_marginStart="920dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/bomb" />
+
+    <ImageView
+        android:id="@+id/bomb5"
+        android:layout_width="98dp"
+        android:layout_height="94dp"
+        android:layout_marginStart="920dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/bomb" />
+
+    <ImageView
+        android:id="@+id/bomb0"
+        android:layout_width="98dp"
+        android:layout_height="94dp"
+        android:layout_marginStart="920dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/bomb" />
+
+    <ImageView
+        android:id="@+id/bomb2"
+        android:layout_width="98dp"
+        android:layout_height="94dp"
+        android:layout_marginStart="932dp"
+        android:layout_marginTop="24dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/bomb" />
+
+    <ImageView
+        android:id="@+id/bomb6"
+        android:layout_width="98dp"
+        android:layout_height="94dp"
+        android:layout_marginStart="920dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/bomb" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,6 +1,8 @@
 package com.example.splitball;
 
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.constraintlayout.widget.ConstraintLayout;
+import androidx.constraintlayout.widget.ConstraintSet;
 
 import android.content.Intent;
 import android.media.Image;
@@ -32,7 +34,8 @@ public class Classroom extends AppCompatActivity {
 
 
 
-        int lives = 3;
+        int[] lives = new int[1];
+        lives[0] = 3;
         int[]  ammoNum = new int[4];
         ammoNum[0] = 0;  //paperball
         ammoNum[1] = 1;  //airplane
@@ -96,73 +99,142 @@ public class Classroom extends AppCompatActivity {
         objects[0] = 1; //balls
         objects[1] = 0; //bombs
 
-        ImageView[] ball = new ImageView[22];
-                ball[0]= findViewById(R.id.ball0);
-                ball[1] = findViewById(R.id.ball1);
-                ball[2] = findViewById(R.id.ball2);
-                ball[3] = findViewById(R.id.ball3);
+        ImageView[] ball = new ImageView[8];
+            ball[0]= findViewById(R.id.ball0);
+            ball[1] = findViewById(R.id.ball1);
+            ball[2] = findViewById(R.id.ball2);
+            ball[3] = findViewById(R.id.ball3);
+            ball[4] = findViewById(R.id.ball4);
+            ball[5] = findViewById(R.id.ball5);
+            ball[6] = findViewById(R.id.ball6);
+            ball[7] = findViewById(R.id.ball7);
 
-        for (int i = 0; i < 4; i++) {
+        ImageView[] bomb = new ImageView[7];
+            bomb[0] = findViewById(R.id.bomb0);
+            bomb[1] = findViewById(R.id.bomb1);
+            bomb[2] = findViewById(R.id.bomb2);
+            bomb[3] = findViewById(R.id.bomb3);
+            bomb[4] = findViewById(R.id.bomb4);
+            bomb[5] = findViewById(R.id.bomb5);
+            bomb[6] = findViewById(R.id.bomb6);
+
+
+        for (int i = 0; i < 8; i++) {
             ball[i].setVisibility(View.INVISIBLE);
+        }
+        for (int j = 0; j < 7; j++) {
+            bomb[j].setVisibility(View.INVISIBLE);
         }
         ball[0].setVisibility(View.VISIBLE);
 
-        ball[0].setOnClickListener(v -> {
-            if(objects[0] + objects[1] < 4)
-            {
-                Random random = new Random();
-                int marginTop = random.nextInt(908 - 532 + 1) + 532; // Random margin top between 532 and 908
-                int marginStart = random.nextInt(540 - 0 + 1);
-
-                ViewGroup.MarginLayoutParams marginParams = (ViewGroup.MarginLayoutParams) ball[objects[0]].getLayoutParams();
-                marginParams.setMargins(marginStart, marginTop, 0, 0);
-                ball[objects[0]].requestLayout();
-                int bombChance = random.nextInt(20 + 1);
-                if(bombChance > 2)
-                    ball[objects[0]].setVisibility(View.VISIBLE);
-                else
-                    //bomb[objects[1].setVisibility(View.VISIBLE);
-                    System.out.println("Do Nothing");
-
-                objects[0]++;
-                score[0] += 50;
-                scoreView.setText("SCORE: " + score[0]);
-
-            }
-            else
-            {
-                ball[0].setVisibility(View.INVISIBLE);
-                score[0] += 50;
-                scoreView.setText("SCORE: " + score[0]);
-            }
-        });
+        Random random = new Random();
 
 
+        for (int i = 0; i < 8; i++)
+        {
+            final View currentBall = ball[i];
+            ball[i].setOnClickListener(v -> {
+                if (objects[0] < 8 && objects[1] < 7) {
 
-    }
-    public void BombIsPressed(int lives) {
-        // Lives will need to be reduced by one inside the button click that activates function. lives--;
-        switch (lives) {
-            case 2:
-                ImageView heart3 = findViewById(R.id.heart3);
-                heart3.setVisibility(View.INVISIBLE);
-                break;
-            case 1:
-                ImageView heart2 = findViewById(R.id.heart2);
-                heart2.setVisibility(View.INVISIBLE);
-                break;
-            case 0:
-                ImageView heart1 = findViewById(R.id.heart1);
-                heart1.setVisibility(View.INVISIBLE);
-                //if (playerLosesGameConditionMet) {
-                Intent intent = new Intent(Classroom.this, GameOver.class);
-                startActivity(intent);
-                // Finish the current activity to prevent going back to the game
-                //finish();
-                break;
-            default:
-                System.out.println("Lives should not be outside of the range 0-3. An error has occured.");
-                break;
+                    int marginTop = random.nextInt(908 - 532 + 1) + 532; // Random margin top between 532 and 908
+                    int marginStart = random.nextInt(540 - 0 + 1);
+                    int marginEnd = 1003 - marginTop;
+                    int marginBottom = 649 -marginStart;
+                    ViewGroup.MarginLayoutParams marginParams = (ViewGroup.MarginLayoutParams) currentBall.getLayoutParams();
+                    marginParams.setMargins(marginStart, marginTop,marginEnd, marginBottom);
+                    int bombChance = random.nextInt(20 + 1);
+                    if (bombChance > 1) {
+                        marginTop = random.nextInt(908 - 532 + 1) + 532; // Random margin top between 532 and 908
+                        marginStart = random.nextInt(540 - 0 + 1);
+                        marginEnd = 1003 - marginTop;
+                        marginBottom = 649 -marginStart;
+                        marginParams = (ViewGroup.MarginLayoutParams) ball[objects[0]].getLayoutParams();
+                        marginParams.setMargins(marginStart, marginTop,marginEnd,marginBottom);
+                        ball[objects[0]].requestLayout();
+                        ball[objects[0]].setVisibility(View.VISIBLE);
+                        objects[0]++;
+                    } else {
+                        marginTop = random.nextInt(908 - 532 + 1) + 532; // Random margin top between 532 and 908
+                        marginStart = random.nextInt(540 - 0 + 1);
+                        marginEnd = 1003 - marginTop;
+                        marginBottom = 649 -marginStart;
+                        marginParams = (ViewGroup.MarginLayoutParams) bomb[objects[1]].getLayoutParams();
+                        marginParams.setMargins(marginStart, marginTop, marginEnd, marginBottom);
+                        bomb[objects[1]].setVisibility(View.VISIBLE);
+                        objects[1]++;
+                        if(objects[0] == 0)
+                        {
+                            ball[0].setVisibility(View.VISIBLE);
+                            objects[0]++;
+                        }
+                    }
+                    score[0] += 50;
+                    scoreView.setText("SCORE: " + score[0]);
+                } else {
+                    ball[0].setVisibility(View.INVISIBLE);
+                    score[0] += 50;
+                    scoreView.setText("SCORE: " + score[0]);
+                    objects[0]--;
+                    if(objects[0] == 0)
+                    {
+                        ball[0].setVisibility(View.VISIBLE);
+                        objects[0]++;
+                    }
+                }
+            });
         }
+
+            bomb[0].setOnClickListener(v -> {
+                lives[0]--;
+                switch (lives[0]) {
+                    case 2:
+                        ImageView heart3 = findViewById(R.id.heart3);
+                        heart3.setVisibility(View.INVISIBLE);
+                        break;
+                    case 1:
+                        ImageView heart2 = findViewById(R.id.heart2);
+                        heart2.setVisibility(View.INVISIBLE);
+                        break;
+                    case 0:
+                        ImageView heart1 = findViewById(R.id.heart1);
+                        heart1.setVisibility(View.INVISIBLE);
+                        //if (playerLosesGameConditionMet) {
+                        Intent intent = new Intent(Classroom.this, GameOver.class);
+                        startActivity(intent);
+                        // Finish the current activity to prevent going back to the game
+                        //finish();
+                        break;
+                    default:
+                        System.out.println("Lives should not be outside of the range 0-3. An error has occurred.");
+                        break;
+                }
+                for (int i = 0; i < objects[0]; i++) {
+                    score[0] -= 50;
+                    if(score[0] < 0)
+                        score[0] = 0;
+                }
+                for (int i = 0; i < objects[1]; i++) {
+                    score[0] -= 100;
+                    if(score[0] < 0)
+                        score[0] = 0;
+                }
+                objects[0] = 1;
+                objects[1] = 0;
+                for (int k = 0; k < 8; k++) {
+                    ball[k].setVisibility(View.INVISIBLE);
+                }
+                for (int j = 0; j < 7; j++) {
+                    bomb[j].setVisibility(View.INVISIBLE);
+                }
+
+                ball[0].setVisibility(View.VISIBLE);
+                if(objects[0] == 1)
+                    ball[0].setVisibility(View.VISIBLE);
+
+            });
+
+            ball[0].setVisibility(View.VISIBLE);
+
     }
+
 }
