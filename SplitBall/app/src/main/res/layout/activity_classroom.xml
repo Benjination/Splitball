@@ -75,11 +75,11 @@
         app:layout_constraintTop_toTopOf="@+id/ammoStar" />
 
     <ImageView
-        android:id="@+id/heart1"
+        android:id="@+id/heart2"
         android:layout_width="61dp"
         android:layout_height="47dp"
-        android:layout_marginStart="24dp"
-        android:layout_marginTop="92dp"
+        android:layout_marginStart="68dp"
+        android:layout_marginTop="72dp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/heart" />
@@ -89,17 +89,17 @@
         android:layout_width="61dp"
         android:layout_height="47dp"
         android:layout_marginStart="112dp"
-        android:layout_marginTop="92dp"
+        android:layout_marginTop="72dp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/heart" />
 
     <ImageView
-        android:id="@+id/heart2"
+        android:id="@+id/heart1"
         android:layout_width="61dp"
         android:layout_height="47dp"
-        android:layout_marginStart="68dp"
-        android:layout_marginTop="92dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="72dp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/heart" />
@@ -153,5 +153,45 @@
         android:textSize="25sp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/ball0"
+        android:layout_width="109dp"
+        android:layout_height="95dp"
+        android:layout_marginStart="468dp"
+        android:layout_marginTop="396dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/ball" />
+
+    <ImageView
+        android:id="@+id/ball2"
+        android:layout_width="109dp"
+        android:layout_height="95dp"
+        android:layout_marginTop="532dp"
+        android:layout_marginStart="0dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/ball" />
+
+    <ImageView
+        android:id="@+id/ball1"
+        android:layout_width="109dp"
+        android:layout_height="95dp"
+        android:layout_marginStart="916dp"
+        android:layout_marginTop="136dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/ball" />
+
+    <ImageView
+        android:id="@+id/ball3"
+        android:layout_width="109dp"
+        android:layout_height="95dp"
+        android:layout_marginStart="908dp"
+        android:layout_marginTop="540dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/ball" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

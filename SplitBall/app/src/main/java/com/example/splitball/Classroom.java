@@ -3,11 +3,15 @@ package com.example.splitball;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
+import android.media.Image;
 import android.os.Bundle;
 import android.view.View;
+import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.TextView;
+
+import java.util.Random;
 
 public class Classroom extends AppCompatActivity {
 
@@ -25,6 +29,8 @@ public class Classroom extends AppCompatActivity {
         airplane = findViewById(R.id.airplane);
         star = findViewById(R.id.star);
         kunai = findViewById(R.id.kunai);
+
+
 
         int lives = 3;
         int[]  ammoNum = new int[4];
@@ -85,6 +91,53 @@ public class Classroom extends AppCompatActivity {
                 ammoKunai.setText("X " + ammoNum[3]);
             }
         });
+
+        int[] objects = new int[2];
+        objects[0] = 1; //balls
+        objects[1] = 0; //bombs
+
+        ImageView[] ball = new ImageView[22];
+                ball[0]= findViewById(R.id.ball0);
+                ball[1] = findViewById(R.id.ball1);
+                ball[2] = findViewById(R.id.ball2);
+                ball[3] = findViewById(R.id.ball3);
+
+        for (int i = 0; i < 4; i++) {
+            ball[i].setVisibility(View.INVISIBLE);
+        }
+        ball[0].setVisibility(View.VISIBLE);
+
+        ball[0].setOnClickListener(v -> {
+            if(objects[0] + objects[1] < 4)
+            {
+                Random random = new Random();
+                int marginTop = random.nextInt(908 - 532 + 1) + 532; // Random margin top between 532 and 908
+                int marginStart = random.nextInt(540 - 0 + 1);
+
+                ViewGroup.MarginLayoutParams marginParams = (ViewGroup.MarginLayoutParams) ball[objects[0]].getLayoutParams();
+                marginParams.setMargins(marginStart, marginTop, 0, 0);
+                ball[objects[0]].requestLayout();
+                int bombChance = random.nextInt(20 + 1);
+                if(bombChance > 2)
+                    ball[objects[0]].setVisibility(View.VISIBLE);
+                else
+                    //bomb[objects[1].setVisibility(View.VISIBLE);
+                    System.out.println("Do Nothing");
+
+                objects[0]++;
+                score[0] += 50;
+                scoreView.setText("SCORE: " + score[0]);
+
+            }
+            else
+            {
+                ball[0].setVisibility(View.INVISIBLE);
+                score[0] += 50;
+                scoreView.setText("SCORE: " + score[0]);
+            }
+        });
+
+
 
     }
     public void BombIsPressed(int lives) {
