@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/spitballbg"
+    android:orientation="horizontal"
+    tools:context=".MainMenu">
+
+
+    <Button
+        android:id="@+id/backToMainSP"
+        android:layout_width="300dp"
+        android:layout_height="78dp"
+        android:layout_marginBottom="184dp"
+        android:text="@string/men_principal"
+        android:textSize="24sp"
+        app:backgroundTint="#4f7942"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/muteUnmuteSP"
+        app:layout_constraintStart_toStartOf="@+id/languagesSP" />
+
+    <Button
+        android:id="@+id/muteUnmuteSP"
+        android:layout_width="300dp"
+        android:layout_height="78dp"
+        android:layout_marginBottom="184dp"
+        android:text="@string/silenciar"
+        android:textSize="25sp"
+        app:backgroundTint="#4f7942"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <Button
+        android:id="@+id/musicVolumeSP"
+        android:layout_width="300dp"
+        android:layout_height="78dp"
+        android:layout_marginEnd="160dp"
+        android:layout_marginBottom="108dp"
+        android:text="@string/volumen_de_la_m_sica"
+        android:textSize="23sp"
+        app:backgroundTint="#4f7942"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <Button
+        android:id="@+id/languagesSP"
+        android:layout_width="300dp"
+        android:layout_height="78dp"
+        android:layout_marginBottom="184dp"
+        android:text="@string/idiomas"
+        android:textSize="30sp"
+        app:backgroundTint="#4f7942"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/sfxVolumeSP"
+        android:layout_width="300dp"
+        android:layout_height="78dp"
+        android:layout_marginStart="172dp"
+        android:layout_marginBottom="108dp"
+        android:text="@string/volumen_de_sfx"
+        android:textSize="25sp"
+        app:backgroundTint="#4f7942"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
