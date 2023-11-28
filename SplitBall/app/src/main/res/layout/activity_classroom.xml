@@ -82,27 +82,27 @@
         android:layout_marginTop="72dp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/heart" />
+        app:srcCompat="@drawable/life" />
 
     <ImageView
         android:id="@+id/heart3"
         android:layout_width="61dp"
         android:layout_height="47dp"
-        android:layout_marginStart="112dp"
+        android:layout_marginStart="128dp"
         android:layout_marginTop="72dp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/heart" />
+        app:srcCompat="@drawable/life" />
 
     <ImageView
         android:id="@+id/heart1"
         android:layout_width="61dp"
         android:layout_height="47dp"
-        android:layout_marginStart="24dp"
+        android:layout_marginStart="4dp"
         android:layout_marginTop="72dp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/heart" />
+        app:srcCompat="@drawable/life" />
 
     <ImageView
         android:id="@+id/paperball"
@@ -143,17 +143,17 @@
         app:layout_constraintStart_toStartOf="parent"
         app:srcCompat="@drawable/star" />
 
+
     <TextView
         android:id="@+id/score"
         android:layout_width="266dp"
         android:layout_height="40dp"
-        android:layout_marginStart="180dp"
+        android:layout_marginStart="192dp"
         android:layout_marginTop="72dp"
         android:text=""
         android:textSize="25sp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
-
 
     <ImageView
         android:id="@+id/ball0"
@@ -260,7 +260,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.442"
-        app:srcCompat="@drawable/bomb" />
+        app:srcCompat="@drawable/fbomb" />
 
     <ImageView
         android:id="@+id/bomb3"
@@ -272,7 +272,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.774"
-        app:srcCompat="@drawable/bomb" />
+        app:srcCompat="@drawable/fbomb" />
 
     <ImageView
         android:id="@+id/bomb4"
@@ -284,7 +284,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.225"
-        app:srcCompat="@drawable/bomb" />
+        app:srcCompat="@drawable/fbomb" />
 
     <ImageView
         android:id="@+id/bomb5"
@@ -296,7 +296,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.597"
-        app:srcCompat="@drawable/bomb" />
+        app:srcCompat="@drawable/fbomb" />
 
     <ImageView
         android:id="@+id/bomb0"
@@ -308,7 +308,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.545"
-        app:srcCompat="@drawable/bomb" />
+        app:srcCompat="@drawable/fbomb" />
 
     <ImageView
         android:id="@+id/bomb2"
@@ -320,7 +320,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.286"
-        app:srcCompat="@drawable/bomb" />
+        app:srcCompat="@drawable/fbomb" />
 
     <ImageView
         android:id="@+id/bomb6"
@@ -332,6 +332,6 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.284"
-        app:srcCompat="@drawable/bomb" />
+        app:srcCompat="@drawable/fbomb" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

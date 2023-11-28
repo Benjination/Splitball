@@ -180,12 +180,20 @@
         "source": "/Users/benniccum/Desktop/Splitball/SplitBall/app/src/main/res/raw/leaderboardg.csv"
     },
     {
+        "merged": "/Users/benniccum/Desktop/Splitball/SplitBall/app/build/intermediates/merged_res/debug/drawable_fbomb.png.flat",
+        "source": "/Users/benniccum/Desktop/Splitball/SplitBall/app/src/main/res/drawable/fbomb.png"
+    },
+    {
         "merged": "/Users/benniccum/Desktop/Splitball/SplitBall/app/build/intermediates/merged_res/debug/drawable_ball.png.flat",
         "source": "/Users/benniccum/Desktop/Splitball/SplitBall/app/src/main/res/drawable/ball.png"
     },
     {
         "merged": "/Users/benniccum/Desktop/Splitball/SplitBall/app/build/intermediates/merged_res/debug/layout_activity_sfxsp.xml.flat",
         "source": "/Users/benniccum/Desktop/Splitball/SplitBall/app/src/main/res/layout/activity_sfxsp.xml"
+    },
+    {
+        "merged": "/Users/benniccum/Desktop/Splitball/SplitBall/app/build/intermediates/merged_res/debug/drawable_life.png.flat",
+        "source": "/Users/benniccum/Desktop/Splitball/SplitBall/app/src/main/res/drawable/life.png"
     },
     {
         "merged": "/Users/benniccum/Desktop/Splitball/SplitBall/app/build/intermediates/merged_res/debug/mipmap-hdpi_ic_launcher.webp.flat",
