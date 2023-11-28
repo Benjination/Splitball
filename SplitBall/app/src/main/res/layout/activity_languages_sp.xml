@@ -4,19 +4,10 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/origami2"
+    android:background="@drawable/spitballbg"
     android:orientation="horizontal"
     tools:context=".MainMenu">
 
-    <ImageView
-        android:id="@+id/Splitball"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:contentDescription="@string/splitball_logo"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/splitball" />
 
     <Button
         android:id="@+id/Espanol"
@@ -24,6 +15,7 @@
         android:layout_height="72dp"
         android:text="@string/espanol"
         android:textSize="30sp"
+        app:backgroundTint="#4f7942"
         app:layout_constraintBottom_toBottomOf="@+id/Ingles"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.685"
@@ -37,6 +29,7 @@
         android:layout_height="72dp"
         android:text="@string/ingles"
         android:textSize="30sp"
+        app:backgroundTint="#4f7942"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.308"
@@ -51,6 +44,7 @@
         android:layout_marginBottom="76dp"
         android:text="@string/men_principal"
         android:textSize="20sp"
+        app:backgroundTint="#4f7942"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent" />

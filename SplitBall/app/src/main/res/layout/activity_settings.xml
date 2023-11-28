@@ -4,20 +4,10 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/origami2"
+    android:background="@drawable/spitballbg"
     android:orientation="horizontal"
     tools:context=".MainMenu">
 
-    <ImageView
-        android:id="@+id/Splitball"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginBottom="114dp"
-        app:layout_constraintBottom_toTopOf="@+id/backToMain"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/splitball" />
 
     <Button
         android:id="@+id/backToMain"
@@ -26,6 +16,7 @@
         android:layout_marginBottom="196dp"
         android:text="@string/back_to_main"
         android:textSize="30sp"
+        app:backgroundTint="#4f7942"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="@+id/muteUnmute"
         app:layout_constraintStart_toStartOf="@+id/languages" />
@@ -37,6 +28,7 @@
         android:layout_marginBottom="196dp"
         android:text="@string/languages"
         android:textSize="30sp"
+        app:backgroundTint="#4f7942"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
 
@@ -48,6 +40,7 @@
         android:layout_marginBottom="120dp"
         android:text="@string/music_volume"
         android:textSize="30sp"
+        app:backgroundTint="#4f7942"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent" />
 
@@ -58,6 +51,7 @@
         android:layout_marginBottom="196dp"
         android:text="@string/mute_unmute"
         android:textSize="25sp"
+        app:backgroundTint="#4f7942"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent" />
 
@@ -69,6 +63,7 @@
         android:layout_marginBottom="120dp"
         android:text="@string/sfx_volume"
         android:textSize="25sp"
+        app:backgroundTint="#4f7942"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
 

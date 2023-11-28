@@ -4,18 +4,10 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/origami2"
+    android:background="@drawable/spitballbg"
     android:orientation="horizontal"
     tools:context=".MainMenu">
 
-    <ImageView
-        android:id="@+id/Splitball"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:contentDescription="@string/splitball_logo"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/splitball" />
 
     <Button
         android:id="@+id/backToMainSP"
@@ -24,6 +16,7 @@
         android:layout_marginBottom="184dp"
         android:text="@string/men_principal"
         android:textSize="24sp"
+        app:backgroundTint="#4f7942"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="@+id/muteUnmuteSP"
         app:layout_constraintStart_toStartOf="@+id/languagesSP" />
@@ -35,6 +28,7 @@
         android:layout_marginBottom="184dp"
         android:text="@string/silenciar"
         android:textSize="25sp"
+        app:backgroundTint="#4f7942"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent" />
 
@@ -46,6 +40,7 @@
         android:layout_marginBottom="108dp"
         android:text="@string/volumen_de_la_m_sica"
         android:textSize="23sp"
+        app:backgroundTint="#4f7942"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent" />
 
@@ -56,6 +51,7 @@
         android:layout_marginBottom="184dp"
         android:text="@string/idiomas"
         android:textSize="30sp"
+        app:backgroundTint="#4f7942"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
 
@@ -67,6 +63,7 @@
         android:layout_marginBottom="108dp"
         android:text="@string/volumen_de_sfx"
         android:textSize="25sp"
+        app:backgroundTint="#4f7942"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
 

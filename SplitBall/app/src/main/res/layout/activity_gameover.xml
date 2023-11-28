@@ -4,22 +4,10 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/origami2"
+    android:background="@drawable/spitballbg"
     android:orientation="horizontal"
     tools:context=".Classroom">
 
-    <ImageView
-        android:id="@+id/Splitball"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:contentDescription="SplitBall Logo"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="1.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.0"
-        app:srcCompat="@drawable/splitball" />
 
     <Button
         android:id="@+id/backToMain"
@@ -29,6 +17,7 @@
         android:layout_marginBottom="176dp"
         android:text="Main Menu"
         android:textSize="30sp"
+        app:backgroundTint="#4f7942"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent" />
 
@@ -40,6 +29,7 @@
         android:layout_marginBottom="104dp"
         android:text="Settings"
         android:textSize="25sp"
+        app:backgroundTint="#4f7942"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent" />
 
@@ -51,6 +41,7 @@
         android:layout_marginBottom="104dp"
         android:text="Share"
         android:textSize="30sp"
+        app:backgroundTint="#4f7942"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent" />
 
@@ -62,6 +53,7 @@
         android:layout_marginBottom="244dp"
         android:text="Restart"
         android:textSize="30sp"
+        app:backgroundTint="#4f7942"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent" />
 
@@ -73,6 +65,7 @@
         android:layout_marginBottom="176dp"
         android:text="Leaderboard"
         android:textSize="30sp"
+        app:backgroundTint="#4f7942"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent" />
 

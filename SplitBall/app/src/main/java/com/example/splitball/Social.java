@@ -25,6 +25,12 @@ public class Social extends AppCompatActivity {
 
         Button email = findViewById(R.id.email);
         email.setOnClickListener(v -> openLoginUrl("https://accounts.google.com/InteractiveLogin"));
+
+        Button backToMain = findViewById(R.id.backToMain);
+        backToMain.setOnClickListener(v -> {
+            Intent intent = new Intent(Social.this, MainMenu.class);
+            startActivity(intent);
+        });
     }
 
     private void openLoginUrl(String url) {
